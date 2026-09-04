@@ -25,16 +25,30 @@
     ],
     "aiInvestmentContext": "Klarna partnered with OpenAI in 2023 to build its assistant.",
     "locations": [
-      { "country": "Sweden", "state": null, "jobs": null, "note": "Klarna is headquartered in Sweden; the reduction was global with no published US breakdown." }
+      {
+        "country": "Sweden",
+        "state": null,
+        "jobs": null,
+        "note": "Klarna is headquartered in Sweden; the reduction was global with no published US breakdown."
+      }
     ],
     "occupations": [
-      { "title": "Customer service agents", "category": "Customer Support", "jobs": null }
+      {
+        "title": "Customer service agents",
+        "category": "Customer Support",
+        "jobs": null
+      }
     ],
-    "sourceIds": ["src-klarna-2025-cnbc", "src-klarna-2024-fastcompany", "src-klarna-2025-entrepreneur"],
+    "sourceIds": [
+      "src-klarna-2025-cnbc",
+      "src-klarna-2024-fastcompany",
+      "src-klarna-2025-entrepreneur"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Headcount figure is approximate and reflects a reduction driven substantially by attrition and a hiring freeze."
+    "notes": "Headcount figure is approximate and reflects a reduction driven substantially by attrition and a hiring freeze.",
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "duolingo-2024-ai-content",
@@ -62,13 +76,21 @@
     "aiInvestmentContext": "Duolingo uses OpenAI's GPT-4 for content generation and its Duolingo Max features.",
     "locations": [],
     "occupations": [
-      { "title": "Translators and content writers", "category": "Media", "jobs": null }
+      {
+        "title": "Translators and content writers",
+        "category": "Media",
+        "jobs": null
+      }
     ],
-    "sourceIds": ["src-duolingo-2024-wapo", "src-duolingo-2024-engadget"],
+    "sourceIds": [
+      "src-duolingo-2024-wapo",
+      "src-duolingo-2024-engadget"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "A clear direct-replacement example where the affected headcount was not disclosed. It counts as an event but contributes no jobs to totals."
+    "notes": "A clear direct-replacement example where the affected headcount was not disclosed. It counts as an event but contributes no jobs to totals.",
+    "reductionMechanism": "ROLE_ELIMINATIONS"
   },
   {
     "id": "intuit-2024-ai-reallocation",
@@ -95,13 +117,22 @@
     ],
     "aiInvestmentContext": "Intuit has integrated generative AI across TurboTax and QuickBooks (Intuit Assist) and has pursued AI partnerships.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Intuit is US-headquartered; a full state-level breakdown was not published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Intuit is US-headquartered; a full state-level breakdown was not published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-intuit-2024-siliconangle", "src-intuit-2024-yahoo"],
+    "sourceIds": [
+      "src-intuit-2024-siliconangle",
+      "src-intuit-2024-yahoo"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "MIXED"
   }
 ]

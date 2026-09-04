@@ -15,10 +15,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
+          # Keep this aligned with the Vercel project's Node version (Project
+          # Settings -> Node.js Version). package.json engines allows >=18.18.
           node-version: 20
           cache: npm
       - run: npm ci
       - run: npm run validate:data
+      - run: npm run validate:candidates
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test

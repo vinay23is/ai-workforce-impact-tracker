@@ -1,6 +1,24 @@
 # Research note: 2026 coverage and benchmark comparison
 
-Research coverage: through 2026-08-31. Methodology version 1.1.0.
+Research coverage: through 2026-08-31. Methodology version 1.2.0.
+
+## v1.2.0 revisions (framing and audit)
+
+- The A–C headline is relabeled **"jobs in verified AI-linked workforce reductions"** — the total
+  headcount of actions AI is linked to, not a claim that AI caused every job. A stronger causal
+  subset, **direct or AI-enabled reductions (A+B)**, is shown alongside it.
+- Events now separate **total workforce-action headcount** from a **specifically-quantified
+  AI-attributed** figure (`aiAttributedJobsGlobal` / `aiAttributedJobsUS`), populated only where a
+  source states an AI-specific number. Oracle's 21,000 keeps `aiAttributedJobsGlobal: null`
+  (unquantified); BT's plan carries `aiAttributedJobsGlobal: 10000` (the company's stated
+  automation/AI portion).
+- Added a **reduction mechanism** to every event (Oracle = net headcount decline, not 21,000
+  documented layoffs).
+- **Salesforce 2026 reclassified A → B.** Evidence specific to the 2026 rounds describes running
+  leaner from AI productivity gains ("a reshape, not a shrink") across marketing, product, and data
+  teams — not AI performing those specific roles. The clearer direct-replacement evidence concerns
+  the separate 2025 support reduction and is not used to classify the 2026 event. This lowers the
+  direct-replacement (A) total, which is the correct outcome.
 
 ## Verified ledger (this tracker)
 

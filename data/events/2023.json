@@ -24,14 +24,23 @@
     ],
     "aiInvestmentContext": "Dropbox later launched AI features such as Dropbox Dash. It did not quantify AI spending tied to this reduction.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Company-wide reduction; Dropbox did not publish a state-level breakdown." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Company-wide reduction; Dropbox did not publish a state-level breakdown."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-dropbox-2023-techcrunch", "src-dropbox-2023-cnbc"],
+    "sourceIds": [
+      "src-dropbox-2023-techcrunch",
+      "src-dropbox-2023-cnbc"
+    ],
     "investmentRelationship": "CONTEXT_ONLY",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "bt-group-2023-ai-automation",
@@ -58,17 +67,31 @@
     ],
     "aiInvestmentContext": null,
     "locations": [
-      { "country": "United Kingdom", "state": null, "jobs": null, "note": "BT is a UK carrier; no US positions were attributed to this program." }
+      {
+        "country": "United Kingdom",
+        "state": null,
+        "jobs": null,
+        "note": "BT is a UK carrier; no US positions were attributed to this program."
+      }
     ],
     "occupations": [
-      { "title": "Customer service and network operations", "category": "Customer Support", "jobs": null }
+      {
+        "title": "Customer service and network operations",
+        "category": "Customer Support",
+        "jobs": null
+      }
     ],
-    "sourceIds": ["src-bt-2023-forbes", "src-bt-2023-theregister"],
+    "sourceIds": [
+      "src-bt-2023-forbes",
+      "src-bt-2023-theregister"
+    ],
     "investmentRelationship": "CONTEXT_ONLY",
     "programId": "bt-2030-restructuring",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Only the ~10,000 AI/automation-attributed portion of a larger 55,000 program is recorded. Because it is a 2030 target, it is shown as planned and is excluded from executed totals."
+    "notes": "Only the ~10,000 AI/automation-attributed portion of a larger 55,000 program is recorded. Because it is a 2030 target, it is shown as planned and is excluded from executed totals.",
+    "reductionMechanism": "NET_HEADCOUNT_DECLINE",
+    "aiAttributedJobsGlobal": 10000
   },
   {
     "id": "ibm-2023-hiring-pause",
@@ -96,13 +119,20 @@
     "aiInvestmentContext": "IBM has invested in its watsonx AI platform over this period.",
     "locations": [],
     "occupations": [
-      { "title": "Back-office roles (HR and administration)", "category": "Human Resources", "jobs": null }
+      {
+        "title": "Back-office roles (HR and administration)",
+        "category": "Human Resources",
+        "jobs": null
+      }
     ],
-    "sourceIds": ["src-ibm-2023-bloomberg"],
+    "sourceIds": [
+      "src-ibm-2023-bloomberg"
+    ],
     "investmentRelationship": "UNCONFIRMED",
     "programId": "ibm-ai-automation",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Recorded as a stated projection. See the 2025 AskHR event for an executed IBM reduction attributed to AI."
+    "notes": "Recorded as a stated projection. See the 2025 AskHR event for an executed IBM reduction attributed to AI.",
+    "reductionMechanism": "HIRING_REDUCTION"
   }
 ]

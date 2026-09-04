@@ -24,15 +24,30 @@
     ],
     "aiInvestmentContext": "Amazon continues heavy AI infrastructure investment (Trainium, Bedrock, Anthropic stake).",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global corporate reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global corporate reduction; no state-level breakdown published."
+      }
     ],
-    "occupations": [{ "title": "Corporate employees", "category": "Professional Services", "jobs": null }],
-    "sourceIds": ["src-amazon-2026-cnbc", "src-amazon-2026-techcrunch"],
+    "occupations": [
+      {
+        "title": "Corporate employees",
+        "category": "Professional Services",
+        "jobs": null
+      }
+    ],
+    "sourceIds": [
+      "src-amazon-2026-cnbc",
+      "src-amazon-2026-techcrunch"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "programId": "amazon-ai-efficiency",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Distinct round from amazon-2025-corporate-ai-efficiency; both are counted as separate announcements."
+    "notes": "Distinct round from amazon-2025-corporate-ai-efficiency; both are counted as separate announcements.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "salesforce-2026-agentforce",
@@ -44,11 +59,11 @@
     "usJobsLost": null,
     "jobsEstimated": true,
     "percentageWorkforce": null,
-    "attributionLevel": "A",
-    "confidence": "HIGH",
+    "attributionLevel": "B",
+    "confidence": "MEDIUM",
     "status": "executed",
-    "summary": "Salesforce eliminated roughly 1,000 roles in early 2026 across marketing, product, data, and its Agentforce AI product, with further small rounds later in the year. CEO Marc Benioff has repeatedly credited AI automation for needing fewer people; Agentforce passed $1.2B in annual recurring revenue.",
-    "whyClassified": "Benioff attributes the reductions directly to AI agents taking over work, matching direct AI replacement (A). It is a distinct 2026 round from the 2025 support reduction.",
+    "summary": "Salesforce eliminated roughly 1,000 roles in early 2026 across marketing, product management, data analytics, and its Agentforce and Heroku teams, with further small rounds later in the year. CEO Marc Benioff described it as a structural realignment against AI productivity gains — holding engineering headcount flat while AI coding agents raised productivity — and called it a reshape, not a shrink, with some staff redeployed.",
+    "whyClassified": "For the 2026 rounds specifically, Salesforce framed the cuts as running leaner because AI raised productivity, not as AI performing the specific eliminated marketing, product, and data roles. That fits an AI-enabled productivity reduction (B), not direct replacement (A). The clearer direct-replacement evidence concerns the separate 2025 support reduction and is not used to classify this 2026 event.",
     "whatWeKnow": [
       "Salesforce confirmed about 1,000 roles cut in early 2026 across several teams.",
       "A later June 2026 round documented 59 roles in Washington and 74 in California via WARN filings."
@@ -59,15 +74,24 @@
     ],
     "aiInvestmentContext": "Salesforce sells Agentforce and reports large productivity gains from AI coding agents.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; a later 2026 round documented small US numbers via WARN filings." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; a later 2026 round documented small US numbers via WARN filings."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-salesforce-2026-ben", "src-salesforce-2026-tnw"],
+    "sourceIds": [
+      "src-salesforce-2026-ben",
+      "src-salesforce-2026-tnw"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "programId": "salesforce-agentforce",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Distinct from salesforce-2025-agentforce-support."
+    "notes": "Distinct from salesforce-2025-agentforce-support.",
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "block-2026-ai-automation",
@@ -94,14 +118,23 @@
     ],
     "aiInvestmentContext": "Block has emphasised AI tooling across Square and Cash App.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Company-wide reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Company-wide reduction; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-block-2026-cnbc", "src-block-2026-fortune"],
+    "sourceIds": [
+      "src-block-2026-cnbc",
+      "src-block-2026-fortune"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "snap-2026-ai-efficiency",
@@ -128,14 +161,23 @@
     ],
     "aiInvestmentContext": "Snap has invested in AI features across Snapchat and its advertising tools.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-snap-2026-cnbc", "src-snap-2026-techcrunch"],
+    "sourceIds": [
+      "src-snap-2026-cnbc",
+      "src-snap-2026-techcrunch"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "coinbase-2026-ai",
@@ -162,14 +204,29 @@
     ],
     "aiInvestmentContext": "Coinbase has pushed an 'AI at our core' operating model.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Remote-first company; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Remote-first company; no state-level breakdown published."
+      }
     ],
-    "occupations": [{ "title": "Managers and consolidated teams", "category": "Professional Services", "jobs": null }],
-    "sourceIds": ["src-coinbase-2026-cnbc", "src-coinbase-2026-fortune"],
+    "occupations": [
+      {
+        "title": "Managers and consolidated teams",
+        "category": "Professional Services",
+        "jobs": null
+      }
+    ],
+    "sourceIds": [
+      "src-coinbase-2026-cnbc",
+      "src-coinbase-2026-fortune"
+    ],
     "investmentRelationship": "CONTEXT_ONLY",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "paypal-2026-ai-transformation",
@@ -196,14 +253,23 @@
     ],
     "aiInvestmentContext": "PayPal appointed a Chief AI Transformation & Simplification Officer to lead its AI agenda.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-paypal-2026-techcrunch", "src-paypal-2026-qz"],
+    "sourceIds": [
+      "src-paypal-2026-techcrunch",
+      "src-paypal-2026-qz"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Announced multi-year plan; kept out of executed totals."
+    "notes": "Announced multi-year plan; kept out of executed totals.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "cloudflare-2026-ai",
@@ -230,14 +296,29 @@
     ],
     "aiInvestmentContext": "Cloudflare builds and sells AI/edge compute and agent tooling.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no state-level breakdown published."
+      }
     ],
-    "occupations": [{ "title": "Middle management, finance, legal, audit ('measurers')", "category": "Professional Services", "jobs": null }],
-    "sourceIds": ["src-cloudflare-2026-cnbc", "src-cloudflare-2026-fortune"],
+    "occupations": [
+      {
+        "title": "Middle management, finance, legal, audit ('measurers')",
+        "category": "Professional Services",
+        "jobs": null
+      }
+    ],
+    "sourceIds": [
+      "src-cloudflare-2026-cnbc",
+      "src-cloudflare-2026-fortune"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "general-motors-2026-it-ai",
@@ -264,14 +345,28 @@
     ],
     "aiInvestmentContext": "GM has invested in software-defined vehicles and AI-assisted engineering.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "US information-technology roles; no state-level breakdown compiled." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "US information-technology roles; no state-level breakdown compiled."
+      }
     ],
-    "occupations": [{ "title": "Information technology", "category": "Technology", "jobs": null }],
-    "sourceIds": ["src-gm-2026-techcrunch"],
+    "occupations": [
+      {
+        "title": "Information technology",
+        "category": "Technology",
+        "jobs": null
+      }
+    ],
+    "sourceIds": [
+      "src-gm-2026-techcrunch"
+    ],
     "investmentRelationship": "UNCONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "cisco-2026-ai-realign",
@@ -298,14 +393,23 @@
     ],
     "aiInvestmentContext": "Cisco is investing in AI networking, silicon, and security.",
     "locations": [
-      { "country": "United States", "state": "CA", "jobs": 471, "note": "California WARN filings documented 471 affected roles." }
+      {
+        "country": "United States",
+        "state": "CA",
+        "jobs": 471,
+        "note": "California WARN filings documented 471 affected roles."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-cisco-2026-cfodive", "src-cisco-2026-dqindia"],
+    "sourceIds": [
+      "src-cisco-2026-cfodive",
+      "src-cisco-2026-dqindia"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "US headcount reflects the California WARN-documented floor; the full US total was not disclosed."
+    "notes": "US headcount reflects the California WARN-documented floor; the full US total was not disclosed.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "meta-2026-ai-reallocation",
@@ -332,15 +436,26 @@
     ],
     "aiInvestmentContext": "Meta projects $115–135 billion in AI infrastructure spending in 2026.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction (Singapore, UK, US and others); no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction (Singapore, UK, US and others); no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-meta-2026-npr", "src-meta-2026-variety"],
+    "sourceIds": [
+      "src-meta-2026-npr",
+      "src-meta-2026-variety"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
-    "relatedInvestmentIds": ["inv-meta-ai-2026"],
+    "relatedInvestmentIds": [
+      "inv-meta-ai-2026"
+    ],
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "intuit-2026-ai-reallocation",
@@ -367,15 +482,23 @@
     ],
     "aiInvestmentContext": "Intuit has integrated generative AI (Intuit Assist) and signed AI partnerships.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "US-headquartered; full state-level breakdown not published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "US-headquartered; full state-level breakdown not published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-intuit-2026-techcrunch"],
+    "sourceIds": [
+      "src-intuit-2026-techcrunch"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "programId": "intuit-ai-reallocation",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Distinct from intuit-2024-ai-reallocation."
+    "notes": "Distinct from intuit-2024-ai-reallocation.",
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "oracle-2026-ai-restructuring",
@@ -402,15 +525,26 @@
     ],
     "aiInvestmentContext": "Oracle is expanding Oracle Cloud Infrastructure and AI data centers; some AI teams grew even as overall headcount fell.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-oracle-2026-yahoo", "src-oracle-2026-cxtoday"],
+    "sourceIds": [
+      "src-oracle-2026-yahoo",
+      "src-oracle-2026-cxtoday"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
-    "relatedInvestmentIds": ["inv-oracle-ai-2026"],
+    "relatedInvestmentIds": [
+      "inv-oracle-ai-2026"
+    ],
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Headcount is a net year-over-year decline; the AI-specific share is unquantified. Recorded at MEDIUM confidence despite the SEC source because AI is one of several stated factors."
+    "notes": "Headcount is a net year-over-year decline; the AI-specific share is unquantified. Recorded at MEDIUM confidence despite the SEC source because AI is one of several stated factors.",
+    "reductionMechanism": "NET_HEADCOUNT_DECLINE"
   },
   {
     "id": "microsoft-2026-layoffs-context",
@@ -437,14 +571,23 @@
     ],
     "aiInvestmentContext": "Microsoft continues very large AI infrastructure investment and is a major OpenAI backer.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no full state-level breakdown compiled." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no full state-level breakdown compiled."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-microsoft-2026-geekwire", "src-microsoft-2026-techcrunch"],
+    "sourceIds": [
+      "src-microsoft-2026-geekwire",
+      "src-microsoft-2026-techcrunch"
+    ],
     "investmentRelationship": "CONTEXT_ONLY",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Consistent with the 2025 Microsoft treatment: recorded as context only because the company did not attribute the cuts to AI."
+    "notes": "Consistent with the 2025 Microsoft treatment: recorded as context only because the company did not attribute the cuts to AI.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "monday-2026-ai-strategy",
@@ -471,13 +614,21 @@
     ],
     "aiInvestmentContext": "monday.com is investing in AI features across its work-management platform.",
     "locations": [
-      { "country": "Israel", "state": null, "jobs": null, "note": "Israel-headquartered; no country-level breakdown published." }
+      {
+        "country": "Israel",
+        "state": null,
+        "jobs": null,
+        "note": "Israel-headquartered; no country-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-monday-2026-techcrunch"],
+    "sourceIds": [
+      "src-monday-2026-techcrunch"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   }
 ]

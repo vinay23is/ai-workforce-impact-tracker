@@ -90,6 +90,22 @@ export const occupationSchema = z.object({
   jobs: unknownableCount.default(null),
 });
 
+/**
+ * How the reduction happened. This is not the same as its cause: a net headcount
+ * decline (e.g. Oracle) is not the same claim as a headcount of documented layoffs.
+ * Use UNKNOWN or MIXED when the evidence does not clearly establish one mechanism.
+ */
+export const reductionMechanisms = [
+  "LAYOFFS",
+  "ROLE_ELIMINATIONS",
+  "NET_HEADCOUNT_DECLINE",
+  "ATTRITION",
+  "REDEPLOYMENT",
+  "HIRING_REDUCTION",
+  "MIXED",
+  "UNKNOWN",
+] as const;
+
 export const eventSchema = z
   .object({
     id: z.string().min(1),
@@ -99,6 +115,12 @@ export const eventSchema = z
     effectiveDate: isoDate.nullable().default(null),
     globalJobsLost: unknownableCount.default(null),
     usJobsLost: unknownableCount.default(null),
+    // The portion of the workforce action a source specifically quantifies as
+    // AI-attributable. null = not quantified. NEVER estimate this or split it
+    // yourself; only populate it when a source states an AI-specific number.
+    aiAttributedJobsGlobal: unknownableCount.default(null),
+    aiAttributedJobsUS: unknownableCount.default(null),
+    reductionMechanism: z.enum(reductionMechanisms).default("UNKNOWN"),
     jobsEstimated: z.boolean().default(false),
     percentageWorkforce: z.number().min(0).max(100).nullable().default(null),
     attributionLevel: z.enum(ATTRIBUTION_LEVELS),
@@ -128,6 +150,33 @@ export const eventSchema = z
   .refine(
     (e) => e.globalJobsLost === null || e.usJobsLost === null || e.usJobsLost <= e.globalJobsLost,
     { message: "US jobs cannot exceed global jobs when both are known", path: ["usJobsLost"] },
+  )
+  .refine(
+    (e) =>
+      e.aiAttributedJobsGlobal === null ||
+      e.globalJobsLost === null ||
+      e.aiAttributedJobsGlobal <= e.globalJobsLost,
+    {
+      message: "AI-attributed global jobs cannot exceed total global jobs",
+      path: ["aiAttributedJobsGlobal"],
+    },
+  )
+  .refine(
+    (e) =>
+      e.aiAttributedJobsUS === null ||
+      e.usJobsLost === null ||
+      e.aiAttributedJobsUS <= e.usJobsLost,
+    { message: "AI-attributed US jobs cannot exceed total US jobs", path: ["aiAttributedJobsUS"] },
+  )
+  .refine(
+    (e) =>
+      e.aiAttributedJobsUS === null ||
+      e.aiAttributedJobsGlobal === null ||
+      e.aiAttributedJobsUS <= e.aiAttributedJobsGlobal,
+    {
+      message: "AI-attributed US jobs cannot exceed AI-attributed global jobs",
+      path: ["aiAttributedJobsUS"],
+    },
   );
 
 export const investmentTypes = [
@@ -172,5 +221,6 @@ export type Source = z.infer<typeof sourceSchema>;
 export type EventLocation = z.infer<typeof locationSchema>;
 export type Occupation = z.infer<typeof occupationSchema>;
 export type WorkforceEvent = z.infer<typeof eventSchema>;
+export type ReductionMechanism = (typeof reductionMechanisms)[number];
 export type Investment = z.infer<typeof investmentSchema>;
 export type Correction = z.infer<typeof correctionSchema>;

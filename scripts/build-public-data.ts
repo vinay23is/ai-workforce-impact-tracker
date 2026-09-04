@@ -51,6 +51,9 @@ function main() {
       effectiveDate: event.effectiveDate,
       globalJobsLost: event.globalJobsLost,
       usJobsLost: event.usJobsLost,
+      aiAttributedJobsGlobal: event.aiAttributedJobsGlobal,
+      aiAttributedJobsUS: event.aiAttributedJobsUS,
+      reductionMechanism: event.reductionMechanism,
       jobsEstimated: event.jobsEstimated,
       percentageWorkforce: event.percentageWorkforce,
       attributionLevel: event.attributionLevel,
@@ -75,6 +78,8 @@ function main() {
   write("industries.json", { ...meta, industries: dataset.industries });
   write("investments.json", { ...meta, investments: dataset.investments });
   write("corrections.json", { ...meta, corrections: dataset.corrections });
+  // Benchmarks are published separately and are never merged into stats/events.
+  write("external-benchmarks.json", { ...meta, benchmarks: dataset.externalBenchmarks });
 
   write("timeline.json", {
     ...meta,

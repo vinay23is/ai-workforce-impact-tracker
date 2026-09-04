@@ -18,6 +18,17 @@ import {
   formatPercent,
 } from "@/lib/formatting";
 
+const REDUCTION_MECHANISM_LABELS: Record<string, string> = {
+  LAYOFFS: "Layoffs",
+  ROLE_ELIMINATIONS: "Role eliminations",
+  NET_HEADCOUNT_DECLINE: "Net headcount decline",
+  ATTRITION: "Attrition",
+  REDEPLOYMENT: "Redeployment",
+  HIRING_REDUCTION: "Hiring reduction",
+  MIXED: "Mixed",
+  UNKNOWN: "Not established",
+};
+
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -207,13 +218,25 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
               </h2>
               <dl className="mt-3 space-y-3">
                 <NumberRow
-                  label="Global jobs"
+                  label="Total jobs in action"
                   value={event.globalJobsLost === null ? "Not disclosed" : formatInt(event.globalJobsLost)}
                   estimated={event.jobsEstimated && event.globalJobsLost !== null}
                 />
                 <NumberRow
                   label="US jobs"
                   value={event.usJobsLost === null ? "Not disclosed" : formatInt(event.usJobsLost)}
+                />
+                <NumberRow
+                  label="AI-attributed (global)"
+                  value={
+                    event.aiAttributedJobsGlobal === null
+                      ? "Not quantified"
+                      : formatInt(event.aiAttributedJobsGlobal)
+                  }
+                />
+                <NumberRow
+                  label="Reduction type"
+                  value={REDUCTION_MECHANISM_LABELS[event.reductionMechanism] ?? event.reductionMechanism}
                 />
                 {event.percentageWorkforce !== null && (
                   <NumberRow label="Share of workforce" value={formatPercent(event.percentageWorkforce)} />

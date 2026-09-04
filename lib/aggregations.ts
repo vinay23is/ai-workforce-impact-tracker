@@ -130,6 +130,53 @@ export function getCapitalReallocationJobs(dataset: Dataset, basis: JobsBasis = 
   return sumJobs(getCapitalReallocationEvents(dataset), basis);
 }
 
+/**
+ * The stronger causal subset: direct AI replacement plus AI-enabled productivity
+ * reductions (A + B), using the same confidence/source gate as the A–C total.
+ */
+export function getDirectOrEnabledEvents(dataset: Dataset): WorkforceEvent[] {
+  return getConfirmedEvents(dataset).filter(
+    (e) => e.attributionLevel === "A" || e.attributionLevel === "B",
+  );
+}
+
+export function getDirectOrEnabledJobs(dataset: Dataset, basis: JobsBasis = "global"): JobsTotal {
+  return sumJobs(getDirectOrEnabledEvents(dataset), basis);
+}
+
+/** Executed events at one attribution level (F included; no confidence gate). */
+export function getExecutedEventsByLevel(dataset: Dataset, level: AttributionLevel): WorkforceEvent[] {
+  return getCountableEvents(dataset.events).filter((e) => isCounted(e) && e.attributionLevel === level);
+}
+
+export function getJobsByLevel(dataset: Dataset, level: AttributionLevel, basis: JobsBasis = "global"): JobsTotal {
+  return sumJobs(getExecutedEventsByLevel(dataset, level), basis);
+}
+
+/**
+ * Jobs a source has SPECIFICALLY quantified as AI-attributable, summed only over
+ * executed AI-linked events. Never inferred — events without a stated AI-specific
+ * figure contribute nothing (their aiAttributedJobs* is null).
+ */
+export function getQuantifiedAIAttributedJobs(
+  dataset: Dataset,
+  basis: JobsBasis = "global",
+): JobsTotal {
+  const events = getAllAILinkedEvents(dataset);
+  let jobs = 0;
+  let known = 0;
+  let unknown = 0;
+  for (const event of events) {
+    const value = basis === "global" ? event.aiAttributedJobsGlobal : event.aiAttributedJobsUS;
+    if (value === null) unknown += 1;
+    else {
+      jobs += value;
+      known += 1;
+    }
+  }
+  return { jobs, events: events.length, eventsWithKnownCount: known, eventsWithUnknownCount: unknown };
+}
+
 // Breakdowns ---------------------------------------------------------------
 
 export interface GroupTotal {

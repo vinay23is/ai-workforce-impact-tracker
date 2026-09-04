@@ -13,8 +13,11 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:data": "tsx scripts/validate-data.ts",
+    "validate:candidates": "tsx scripts/validate-candidates.ts",
     "build:data": "tsx scripts/build-public-data.ts",
-    "add:event": "tsx scripts/add-event.ts"
+    "add:event": "tsx scripts/add-event.ts",
+    "discover": "tsx scripts/discover.ts",
+    "promote:candidate": "tsx scripts/promote-candidate.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

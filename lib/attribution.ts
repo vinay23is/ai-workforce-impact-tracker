@@ -7,7 +7,7 @@
  * from what the methodology page describes.
  */
 
-export const METHODOLOGY_VERSION = "1.1.0";
+export const METHODOLOGY_VERSION = "1.2.0";
 
 export const ATTRIBUTION_LEVELS = ["A", "B", "C", "D", "E", "F"] as const;
 export type AttributionLevel = (typeof ATTRIBUTION_LEVELS)[number];
@@ -54,10 +54,10 @@ export const ATTRIBUTION_META: Record<AttributionLevel, AttributionMeta> = {
   },
   C: {
     level: "C",
-    label: "AI-related restructuring",
+    label: "Multi-factor AI-related restructuring",
     short: "AI restructuring",
     description:
-      "AI is explicitly named as one reason for a broader restructuring that also cites other factors.",
+      "AI is explicitly named as one reason for a broader restructuring that also cites other factors. The total headcount is the whole action, not an AI-specific count.",
   },
   D: {
     level: "D",

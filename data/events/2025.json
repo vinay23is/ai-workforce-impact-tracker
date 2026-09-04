@@ -24,14 +24,23 @@
     ],
     "aiInvestmentContext": "Workday has added AI features across its finance and HR products.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "US and international roles affected; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "US and international roles affected; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-workday-2025-cnbc", "src-workday-2025-wapo"],
+    "sourceIds": [
+      "src-workday-2025-cnbc",
+      "src-workday-2025-wapo"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "chegg-2025-ai-disruption",
@@ -58,14 +67,22 @@
     ],
     "aiInvestmentContext": "Chegg has added its own AI study tools but faces competition from general-purpose AI assistants.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "US and Canada offices affected; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "US and Canada offices affected; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-chegg-2025-cnbc"],
+    "sourceIds": [
+      "src-chegg-2025-cnbc"
+    ],
     "investmentRelationship": "UNCONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "ibm-2025-askhr",
@@ -93,14 +110,22 @@
     "aiInvestmentContext": "IBM markets watsonx Orchestrate and AI agents such as AskHR.",
     "locations": [],
     "occupations": [
-      { "title": "Human resources administration", "category": "Human Resources", "jobs": 200 }
+      {
+        "title": "Human resources administration",
+        "category": "Human Resources",
+        "jobs": 200
+      }
     ],
-    "sourceIds": ["src-ibm-2025-entrepreneur", "src-ibm-2025-shrm"],
+    "sourceIds": [
+      "src-ibm-2025-entrepreneur",
+      "src-ibm-2025-shrm"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "programId": "ibm-ai-automation",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "The executed counterpart to IBM's 2023 projection: a modest, specific replacement (~200 roles) even as total headcount grew."
+    "notes": "The executed counterpart to IBM's 2023 projection: a modest, specific replacement (~200 roles) even as total headcount grew.",
+    "reductionMechanism": "ROLE_ELIMINATIONS"
   },
   {
     "id": "microsoft-2025-layoffs-context",
@@ -128,16 +153,34 @@
     ],
     "aiInvestmentContext": "Microsoft committed about $80 billion to AI data centers in fiscal 2025 and is a major backer of OpenAI. It has not tied this spending to the workforce reductions.",
     "locations": [
-      { "country": "United States", "state": "WA", "city": "Redmond", "jobs": 3100, "note": "Washington state WARN filings recorded about 3,100 layoffs across the May and July 2025 waves." },
-      { "country": "United States", "state": null, "jobs": null, "note": "Remaining reductions were global and not fully broken out by state." }
+      {
+        "country": "United States",
+        "state": "WA",
+        "city": "Redmond",
+        "jobs": 3100,
+        "note": "Washington state WARN filings recorded about 3,100 layoffs across the May and July 2025 waves."
+      },
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Remaining reductions were global and not fully broken out by state."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-microsoft-2025-warn-geekwire", "src-microsoft-2025-wa-geekwire", "src-microsoft-2025-invest-cnbc"],
+    "sourceIds": [
+      "src-microsoft-2025-warn-geekwire",
+      "src-microsoft-2025-wa-geekwire",
+      "src-microsoft-2025-invest-cnbc"
+    ],
     "investmentRelationship": "CONTEXT_ONLY",
-    "relatedInvestmentIds": ["inv-microsoft-fy2025-datacenters"],
+    "relatedInvestmentIds": [
+      "inv-microsoft-fy2025-datacenters"
+    ],
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Included as an investigative-context example of the difference between correlation and causation. Never counted in AI-attributed totals."
+    "notes": "Included as an investigative-context example of the difference between correlation and causation. Never counted in AI-attributed totals.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "salesforce-2025-agentforce-support",
@@ -164,16 +207,29 @@
     ],
     "aiInvestmentContext": "Salesforce sells Agentforce, its AI agent product, and has invested heavily in it.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global support organization; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global support organization; no state-level breakdown published."
+      }
     ],
     "occupations": [
-      { "title": "Customer support representatives", "category": "Customer Support", "jobs": 4000 }
+      {
+        "title": "Customer support representatives",
+        "category": "Customer Support",
+        "jobs": 4000
+      }
     ],
-    "sourceIds": ["src-salesforce-2025-sfchronicle", "src-salesforce-2025-foxbusiness"],
+    "sourceIds": [
+      "src-salesforce-2025-sfchronicle",
+      "src-salesforce-2025-foxbusiness"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Headcount is approximate (about 4,000) and reflects a support organization that shrank from ~9,000 to ~5,000; some staff were redeployed."
+    "notes": "Headcount is approximate (about 4,000) and reflects a support organization that shrank from ~9,000 to ~5,000; some staff were redeployed.",
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "amazon-2025-corporate-ai-efficiency",
@@ -201,17 +257,33 @@
     ],
     "aiInvestmentContext": "Amazon is investing heavily in AI infrastructure, including its Trainium chips, Bedrock, and a large stake in Anthropic.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Corporate reduction; Amazon did not publish a state-level breakdown." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Corporate reduction; Amazon did not publish a state-level breakdown."
+      }
     ],
     "occupations": [
-      { "title": "Corporate employees", "category": "Professional Services", "jobs": null }
+      {
+        "title": "Corporate employees",
+        "category": "Professional Services",
+        "jobs": null
+      }
     ],
-    "sourceIds": ["src-amazon-2025-cnbc", "src-amazon-2025-geekwire", "src-amazon-2025-jassy-cnbc"],
+    "sourceIds": [
+      "src-amazon-2025-cnbc",
+      "src-amazon-2025-geekwire",
+      "src-amazon-2025-jassy-cnbc"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
-    "relatedInvestmentIds": ["inv-amazon-ai"],
+    "relatedInvestmentIds": [
+      "inv-amazon-ai"
+    ],
     "published": true,
     "lastReviewedAt": "2026-09-01",
-    "notes": "Only the company-confirmed ~14,000 is recorded; a larger 30,000 figure reported elsewhere is a projection and is excluded."
+    "notes": "Only the company-confirmed ~14,000 is recorded; a larger 30,000 figure reported elsewhere is a projection and is excluded.",
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "crowdstrike-2025-ai-efficiency",
@@ -238,14 +310,23 @@
     ],
     "aiInvestmentContext": "CrowdStrike markets AI-driven security (Charlotte AI) across its platform.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "Global reduction; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-crowdstrike-2025-cnbc", "src-crowdstrike-2025-siliconangle"],
+    "sourceIds": [
+      "src-crowdstrike-2025-cnbc",
+      "src-crowdstrike-2025-siliconangle"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "LAYOFFS"
   },
   {
     "id": "accenture-2025-ai-reinvention",
@@ -272,14 +353,23 @@
     ],
     "aiInvestmentContext": "Accenture targets doubling its AI and data workforce to 80,000 by fiscal 2026.",
     "locations": [
-      { "country": "Ireland", "state": null, "jobs": null, "note": "Globally distributed workforce; no country-level breakdown published." }
+      {
+        "country": "Ireland",
+        "state": null,
+        "jobs": null,
+        "note": "Globally distributed workforce; no country-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-accenture-2025-hrgrapevine", "src-accenture-2025-10k"],
+    "sourceIds": [
+      "src-accenture-2025-hrgrapevine",
+      "src-accenture-2025-10k"
+    ],
     "investmentRelationship": "PARTIALLY_CONFIRMED",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": null
+    "notes": null,
+    "reductionMechanism": "MIXED"
   },
   {
     "id": "chegg-2025-oct-ai-disruption",
@@ -306,14 +396,22 @@
     ],
     "aiInvestmentContext": "Chegg faces competition from general-purpose AI assistants and search-AI answers.",
     "locations": [
-      { "country": "United States", "state": null, "jobs": null, "note": "US-based; no state-level breakdown published." }
+      {
+        "country": "United States",
+        "state": null,
+        "jobs": null,
+        "note": "US-based; no state-level breakdown published."
+      }
     ],
     "occupations": [],
-    "sourceIds": ["src-chegg-2025-oct-cnbc"],
+    "sourceIds": [
+      "src-chegg-2025-oct-cnbc"
+    ],
     "investmentRelationship": "UNCONFIRMED",
     "programId": "chegg-ai-disruption",
     "published": true,
     "lastReviewedAt": "2026-09-02",
-    "notes": "Second 2025 Chegg round; distinct from the May reduction."
+    "notes": "Second 2025 Chegg round; distinct from the May reduction.",
+    "reductionMechanism": "LAYOFFS"
   }
 ]

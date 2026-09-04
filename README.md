@@ -111,12 +111,49 @@ The GitHub Actions workflow in `.github/workflows/ci.yml` runs validation, lint,
 and the build on pushes and pull requests. It does **not** deploy — Vercel does that. The default
 `*.vercel.app` domain is fine; no custom domain is required.
 
+## Automated discovery
+
+A scheduled GitHub Action (`.github/workflows/discover-events.yml`) looks for *possible* new
+events and opens a pull request of **candidates** for a human to review. It never writes to
+`data/events`, never changes any total, and never merges anything.
+
+- **Providers** (`scripts/discovery/providers/`): SEC EDGAR full-text search (live, keyless) and
+  GDELT DOC 2.0. GDELT is **disabled by default** — it rate-limited (HTTP 429) from our test
+  environment; enable it with `DISCOVERY_ENABLE_GDELT=1` where the network is not rate limited.
+- **No paid APIs.** No OpenAI/Anthropic/Gemini, no paid search/news/database/queue/cron.
+- **Candidates** (`data/candidates/`) are review artifacts, not events. They are never loaded by
+  the site (`lib/data.ts` only reads `data/events/`) and can never be published.
+- **A keyword match is not causation.** Discovery records a pointer to evidence (title, URL,
+  publisher, date, matched keywords) and, at most, a `suggestedAttribution` that stays `null`. A
+  human determines attribution.
+- **Promotion is a human action:** `npm run promote:candidate -- --candidate <id> --event path.json`.
+  It requires a fully-authored event and runs full validation. Nothing is auto-published.
+- **Provider failures do not modify production data** — a provider that errors returns nothing and
+  the run still exits cleanly.
+
+Run and check discovery locally:
+
+```bash
+npm run discover            # writes candidates under data/candidates/discovered/
+npm run validate:candidates # validates candidate files
+```
+
+Enabling the PR step: GitHub blocks Actions from opening PRs unless
+**Settings → Actions → General → Workflow permissions → "Allow GitHub Actions to create and
+approve pull requests"** is enabled. Do not work around this with a personal access token.
+
+Caveat: GitHub disables scheduled workflows on a public repository after roughly 60 days of no
+repository activity; re-enable it from the Actions tab (or push a commit) if that happens.
+
 ## Limitations
 
 - Wage and household figures are estimates, rounded and shown with a leading `~`. They are not
   measures of permanent economic loss.
-- Reference wages are US-based and are applied to global headcounts where a US figure is unknown,
-  which introduces error.
+- Wage and household estimates are **US-only**: reference wages and household size are US figures,
+  so events without a verified US headcount are excluded from those estimates (they return null
+  rather than valuing a global count with a US wage). Coverage is shown on the site.
+- The headline counts the total headcount of AI-linked workforce actions (A–C), not a count of
+  jobs proven caused by AI. An AI-specific figure is recorded only where a source quantifies it.
 - Coverage is curated, not comprehensive.
 
 ## Testing

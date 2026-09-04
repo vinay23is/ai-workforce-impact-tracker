@@ -6,9 +6,12 @@ import {
   getConfirmedEvents,
   getConfirmedJobs,
   getCountriesAffected,
+  getDirectOrEnabledJobs,
   getDirectReplacementJobs,
+  getJobsByLevel,
   getPlannedEvents,
   getPlannedJobs,
+  getQuantifiedAIAttributedJobs,
   getCountableEvents,
 } from "./aggregations";
 import { getEstimatedHouseholdExposure, getEstimatedWageImpact } from "./estimates";
@@ -34,6 +37,19 @@ export function getSiteStats(dataset: Dataset) {
   const direct = getDirectReplacementJobs(dataset, "global");
   const capital = getCapitalReallocationJobs(dataset, "global");
   const planned = getPlannedJobs(dataset, "global");
+  const directOrEnabled = getDirectOrEnabledJobs(dataset, "global");
+  const quantifiedAIAttributed = getQuantifiedAIAttributedJobs(dataset, "global");
+
+  // Per-attribution-level totals (executed). A–C match the verified headline;
+  // D and E are AI-linked but not part of it; F is context-only and never AI-linked.
+  const byLevel = {
+    A: getJobsByLevel(dataset, "A", "global"),
+    B: getJobsByLevel(dataset, "B", "global"),
+    C: getJobsByLevel(dataset, "C", "global"),
+    D: getJobsByLevel(dataset, "D", "global"),
+    E: getJobsByLevel(dataset, "E", "global"),
+    F: getJobsByLevel(dataset, "F", "global"),
+  };
 
   const countable = getCountableEvents(dataset.events);
   const linkedEvents = getAllAILinkedEvents(dataset);
@@ -61,9 +77,14 @@ export function getSiteStats(dataset: Dataset) {
     dataThrough: dataset.meta.dataThrough,
     lastDatasetUpdate: dataset.meta.lastDatasetUpdate,
 
+    // A–C total workforce-action headcount (gated). Public label: "jobs in verified
+    // AI-linked workforce reductions", NOT "jobs caused by/replaced by AI".
     confirmed,
     confirmedUs,
     confirmedCompanies: distinctCompanies(confirmedEvents),
+    directOrEnabled,
+    quantifiedAIAttributed,
+    byLevel,
     allLinked,
     direct,
     capital,

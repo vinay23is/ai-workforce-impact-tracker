@@ -10,7 +10,8 @@ const nextConfig = {
   // A stray lockfile elsewhere on the machine can make Next guess the wrong
   // workspace root; pin it to this project.
   outputFileTracingRoot: projectRoot,
-  // The site is fully static; no image optimization service is required for V1.
+  // Pages are prerendered at build time (SSG); this is not `output: 'export'`.
+  // No image optimization service is used, so images are served unoptimized.
   images: {
     unoptimized: true,
   },

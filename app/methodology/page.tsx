@@ -75,7 +75,11 @@ export default function MethodologyPage() {
                     <dt className="font-medium text-ink">
                       {level} — {m.label}{" "}
                       <span className="text-xs font-normal text-faint">
-                        {inConfirmed ? "counts as confirmed" : level === "F" ? "never counted" : "AI-linked, not confirmed"}
+                        {inConfirmed
+                          ? "in verified AI-linked (A–C)"
+                          : level === "F"
+                            ? "never counted"
+                            : "AI-linked, not in A–C"}
                       </span>
                     </dt>
                     <dd className="mt-1 text-sm text-muted">{m.description}</dd>
@@ -83,6 +87,37 @@ export default function MethodologyPage() {
                 );
               })}
             </dl>
+          </section>
+
+          <section id="counting">
+            <H>Total workforce action vs AI-attributed jobs</H>
+            <p>
+              The headline counts the <strong>total headcount of the workforce action</strong> that AI
+              is credibly linked to — not a count of jobs proven to be caused by AI. These are
+              different claims, and Category C makes the difference sharp: when a company names AI as
+              one of several reasons for a broader restructuring (as Oracle did in a 2026 SEC filing
+              covering 21,000 roles), the full action headcount is recorded, but the AI-specific
+              portion is usually not quantified.
+            </p>
+            <p className="mt-3">
+              So each event stores the total headcount and, separately, an{" "}
+              <em>AI-attributed</em> figure that is populated <strong>only</strong> when a source
+              states an AI-specific number. We never estimate it, split it, or assign a percentage —
+              an unquantified AI portion stays null, never zero. A stronger causal reading of the data
+              is the A+B subset (direct replacement plus AI-enabled reductions), shown on the homepage
+              as &ldquo;direct or AI-enabled reductions.&rdquo;
+            </p>
+          </section>
+
+          <section id="mechanism">
+            <H>Reduction mechanism</H>
+            <p>
+              How a reduction happened is separate from why. Layoffs, role eliminations, a net
+              year-over-year headcount decline, attrition, redeployment, and hiring reductions are
+              different things, and a reported net decline is not the same as that many documented
+              layoffs. Each event records a mechanism (or UNKNOWN / MIXED where the evidence does not
+              establish one), shown on the event page.
+            </p>
           </section>
 
           <section>

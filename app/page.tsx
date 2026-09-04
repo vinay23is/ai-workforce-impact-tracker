@@ -75,17 +75,19 @@ export default function HomePage() {
           <div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
             <HeadlineMetric
               value={formatInt(stats.confirmed.jobs)}
-              label="Confirmed AI-attributed job cuts"
-              description="Publicly documented workforce reductions where available evidence explicitly connects AI to the decision. This is the most conservative count on the site."
+              label="Jobs in verified AI-linked workforce reductions"
+              description="Total headcount of workforce reductions where evidence explicitly links AI to the decision (categories A–C). This is the size of the actions AI is tied to — not a claim that AI caused or replaced every job."
             />
             <div className="text-sm text-muted">
               <p>
                 Across {formatInt(stats.confirmed.events)} verified events at{" "}
-                {formatInt(stats.confirmedCompanies)} companies (categories A–C, executed or in
-                progress). Every counted event has a source explicitly linking AI to the decision.
+                {formatInt(stats.confirmedCompanies)} companies, executed or in progress. The
+                stronger causal subset — direct AI replacement plus AI-enabled reductions (A+B) —
+                is {formatInt(stats.directOrEnabled.jobs)}.
               </p>
               <p className="mt-3">
-                A broader, still-verified total and an independent industry benchmark are below.{" "}
+                Where a source quantifies an AI-specific number, we track it separately (
+                {formatInt(stats.quantifiedAIAttributed.jobs)} so far). We never split it ourselves.{" "}
                 <Link href="/methodology" className="text-accent underline underline-offset-2">
                   How we classify
                 </Link>
@@ -102,34 +104,54 @@ export default function HomePage() {
 
       <section className="border-b border-rule">
         <Container className="py-10">
-          <SectionHeading>Verified ledger</SectionHeading>
+          <SectionHeading>By causal strength</SectionHeading>
           <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
             <SecondaryMetric
+              value={formatInt(stats.directOrEnabled.jobs)}
+              label="Direct or AI-enabled reductions"
+              note="A + B: AI performs the work, or the company says AI lets it run with fewer people. The strongest causal set."
+            />
+            <SecondaryMetric
+              value={formatInt(stats.byLevel.C.jobs)}
+              label="Multi-factor AI-related restructuring"
+              note="C: AI is one named factor among several. The full action headcount, not an AI-specific count."
+            />
+            <SecondaryMetric
               value={formatInt(stats.allLinked.jobs)}
-              label="All verified AI-linked cuts"
-              note="Categories A–E, executed. Includes capital reallocation and reported connections; excludes context-only."
-            />
-            <SecondaryMetric
-              value={formatInt(stats.direct.jobs)}
-              label="Direct AI replacement"
-              note="Category A: AI performs work people previously did."
-            />
-            <SecondaryMetric
-              value={formatInt(stats.capital.jobs)}
-              label="AI capital reallocation"
-              note="Category D: cuts tied to shifting money toward AI. Not AI performing the jobs."
+              label="All verified AI-linked (A–E)"
+              note="Adds capital reallocation and reported connections. Excludes context-only."
             />
             <SecondaryMetric
               value={formatInt(stats.planned.jobs)}
               label="Announced / planned"
-              note="AI-attributed reductions stated as future targets. Kept out of the executed totals."
+              note="AI-attributed reductions stated as future targets. Kept out of executed totals."
             />
           </div>
+        </Container>
+      </section>
+
+      <section className="border-b border-rule">
+        <Container className="py-10">
+          <SectionHeading>By attribution category</SectionHeading>
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            <StatTile value={formatInt(stats.byLevel.A.jobs)} label="A · Direct AI replacement" sub={`${stats.byLevel.A.events} events`} />
+            <StatTile value={formatInt(stats.byLevel.B.jobs)} label="B · AI-enabled reduction" sub={`${stats.byLevel.B.events} events`} />
+            <StatTile value={formatInt(stats.byLevel.C.jobs)} label="C · AI-related restructuring" sub={`${stats.byLevel.C.events} events`} />
+            <StatTile value={formatInt(stats.byLevel.D.jobs)} label="D · Capital reallocation" sub={`${stats.byLevel.D.events} events`} />
+            <StatTile value={formatInt(stats.byLevel.E.jobs)} label="E · Reported connection" sub={`${stats.byLevel.E.events} events`} />
+            <StatTile value={formatInt(stats.byLevel.F.jobs)} label="F · Context only" sub="never counted" />
+          </div>
+          <p className="mt-4 max-w-prose text-xs text-muted">
+            Specifically quantified AI-attributable jobs, where a source stated an AI-specific
+            number: <span className="tnum font-medium text-ink-soft">{formatInt(stats.quantifiedAIAttributed.jobs)}</span>.
+            Most events do not quantify this, and we never estimate it. Context-only (F) is shown
+            for investigative context and is never part of any AI-linked total.
+          </p>
           <div className="mt-6 flex flex-wrap gap-x-6 gap-y-1 text-xs text-faint">
             <span>{formatInt(stats.companiesTracked)} companies tracked</span>
             <span>{stats.industriesAffected} industries</span>
             <span>{stats.countriesCount} countries</span>
-            <span>{formatInt(stats.confirmed.events)} confirmed of {formatInt(stats.coverage.trackedEvents)} tracked events</span>
+            <span>{formatInt(stats.confirmed.events)} verified of {formatInt(stats.coverage.trackedEvents)} tracked events</span>
           </div>
         </Container>
       </section>
@@ -147,7 +169,17 @@ export default function HomePage() {
                   {benchmark.metric}, {new Date(benchmark.periodStart).getUTCFullYear()} through
                   August
                 </p>
-                <p className="mt-1 text-xs text-muted">Source: {benchmark.publisher}</p>
+                <p className="mt-1 text-xs text-muted">
+                  Source:{" "}
+                  <a
+                    href={benchmark.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="underline decoration-rule underline-offset-2 hover:text-accent hover:decoration-accent"
+                  >
+                    {benchmark.publisher}
+                  </a>
+                </p>
               </div>
               <div className="max-w-prose text-sm leading-relaxed text-muted">
                 <p>
@@ -157,7 +189,7 @@ export default function HomePage() {
                   site&apos;s verified-event totals.
                 </p>
                 <p className="mt-3">
-                  Our verified confirmed total ({formatInt(stats.confirmed.jobs)}) is lower and
+                  Our verified AI-linked total ({formatInt(stats.confirmed.jobs)}) is lower and
                   spans 2023–2026 globally; the benchmark is US-only, announcement-based, and 2026
                   only. The gap reflects events we excluded for insufficient causal evidence,
                   announced plans not yet executed, and smaller employers we have not yet reviewed.{" "}
