@@ -6,6 +6,13 @@ export const SITE_TAGLINE =
 export const SITE_DESCRIPTION =
   "A public dataset and website documenting workforce reductions with credible links to artificial intelligence. It separates confirmed AI-attributed job cuts from broader restructuring and from layoffs that merely occur alongside AI investment.";
 
+/**
+ * If research coverage (dataThrough) falls this many days behind the current date,
+ * validation prints a DATA COVERAGE LAG warning. Kept as a warning rather than a
+ * hard failure so the repository does not self-break as real time passes.
+ */
+export const COVERAGE_LAG_WARN_DAYS = 120;
+
 export const NAV = [
   { href: "/events", label: "Tracker" },
   { href: "/companies", label: "Companies" },

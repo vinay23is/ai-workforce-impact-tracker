@@ -30,7 +30,7 @@ export function SiteFooter() {
               evidence is thin, we say so.
             </p>
             <p className="mt-4 text-xs text-faint">
-              Data through {formatDate(meta.dataThrough)} · Last update{" "}
+              Research coverage through {formatDate(meta.dataThrough)} · Repository updated{" "}
               {formatDate(meta.lastDatasetUpdate)} · Methodology v{meta.methodologyVersion}
             </p>
           </div>

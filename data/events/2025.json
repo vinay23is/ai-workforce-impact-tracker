@@ -212,5 +212,108 @@
     "published": true,
     "lastReviewedAt": "2026-09-01",
     "notes": "Only the company-confirmed ~14,000 is recorded; a larger 30,000 figure reported elsewhere is a projection and is excluded."
+  },
+  {
+    "id": "crowdstrike-2025-ai-efficiency",
+    "slug": "crowdstrike-2025-ai-efficiency",
+    "companyId": "crowdstrike",
+    "announcementDate": "2025-05-07",
+    "effectiveDate": null,
+    "globalJobsLost": 500,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 5,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "CrowdStrike cut about 500 roles (5%). CEO George Kurtz said the eliminations were due to 'AI efficiencies', stating that AI offers faster innovation, streamlined execution, and a reduced need for headcount as the company targets $10 billion in annual recurring revenue.",
+    "whyClassified": "The CEO explicitly said AI reduces the need for headcount, matching an AI-enabled productivity reduction (B).",
+    "whatWeKnow": [
+      "CrowdStrike confirmed about 500 cuts (5%) on May 7, 2025.",
+      "The CEO attributed the reduction to AI efficiencies."
+    ],
+    "whatWeDontKnow": [
+      "Some observers questioned whether AI was a genuine driver or a convenient framing; the AI-specific share is not quantified.",
+      "CrowdStrike did not publish a US-versus-international breakdown."
+    ],
+    "aiInvestmentContext": "CrowdStrike markets AI-driven security (Charlotte AI) across its platform.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-crowdstrike-2025-cnbc", "src-crowdstrike-2025-siliconangle"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "accenture-2025-ai-reinvention",
+    "slug": "accenture-2025-ai-reinvention",
+    "companyId": "accenture",
+    "announcementDate": "2025-09-25",
+    "effectiveDate": null,
+    "globalJobsLost": 11000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "C",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Accenture exited about 11,000 staff in the quarter ending August 2025 as it accelerated toward AI-powered operations. CEO Julie Sweet said the firm was letting people go quickly where reskilling for AI was not feasible, attributing the move to rapid AI adoption and a slowdown in corporate demand. The plan carried about $865 million in severance costs.",
+    "whyClassified": "AI adoption is explicitly named alongside a demand slowdown as the reason for the reductions, matching AI-related restructuring (C).",
+    "whatWeKnow": [
+      "Accenture's workforce fell to about 779,000 from 791,000, with roughly 11,000 exits attributed to the AI reinvention and demand slowdown.",
+      "The CEO said staff who could not be reskilled for AI were exited."
+    ],
+    "whatWeDontKnow": [
+      "The split between AI-driven exits and demand-driven exits is not quantified.",
+      "Accenture did not publish a country-level breakdown; much of its workforce is outside the US."
+    ],
+    "aiInvestmentContext": "Accenture targets doubling its AI and data workforce to 80,000 by fiscal 2026.",
+    "locations": [
+      { "country": "Ireland", "state": null, "jobs": null, "note": "Globally distributed workforce; no country-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-accenture-2025-hrgrapevine", "src-accenture-2025-10k"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "chegg-2025-oct-ai-disruption",
+    "slug": "chegg-2025-oct-ai-disruption",
+    "companyId": "chegg",
+    "announcementDate": "2025-10-27",
+    "effectiveDate": null,
+    "globalJobsLost": 388,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": 45,
+    "attributionLevel": "E",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Chegg cut about 388 roles (45%), a second 2025 round after May's 22% reduction, citing the 'new realities of AI' and reduced Google traffic to content publishers as students shifted to AI tools. The restructuring targeted about $110 million in savings.",
+    "whyClassified": "Chegg attributes the reduction to AI eroding demand for its services rather than internal automation. Credible reporting and company statements connect AI to the cut, matching a reported AI connection (E).",
+    "whatWeKnow": [
+      "Chegg confirmed about 388 cuts (45%) on October 27, 2025.",
+      "The company cited AI-driven declines in traffic and revenue."
+    ],
+    "whatWeDontKnow": [
+      "This stems from AI-driven demand loss rather than internal automation, so it is excluded from the confirmed total.",
+      "Chegg did not publish a state-level breakdown."
+    ],
+    "aiInvestmentContext": "Chegg faces competition from general-purpose AI assistants and search-AI answers.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "US-based; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-chegg-2025-oct-cnbc"],
+    "investmentRelationship": "UNCONFIRMED",
+    "programId": "chegg-ai-disruption",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Second 2025 Chegg round; distinct from the May reduction."
   }
 ]

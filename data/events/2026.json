@@ -1,0 +1,483 @@
+[
+  {
+    "id": "amazon-2026-corporate-ai",
+    "slug": "amazon-2026-corporate-ai",
+    "companyId": "amazon",
+    "announcementDate": "2026-01-28",
+    "effectiveDate": null,
+    "globalJobsLost": 16000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Amazon cut about 16,000 corporate roles, a second large round after October 2025's 14,000. CEO Andy Jassy's memo said that as Amazon rolls out generative AI and agents it will need fewer people doing some current jobs; leadership also cited removing bureaucracy and management layers.",
+    "whyClassified": "AI-driven efficiency was named alongside reducing bureaucracy, matching AI-related restructuring (C). It is a distinct 2026 round, not a restatement of the October 2025 cut.",
+    "whatWeKnow": [
+      "Amazon confirmed about 16,000 corporate job cuts on January 28, 2026.",
+      "Jassy's memo tied generative AI and agents to needing fewer people in some roles."
+    ],
+    "whatWeDontKnow": [
+      "How much of the 16,000 is attributable to AI versus removing management layers is not quantified.",
+      "Amazon did not disclose a US-versus-international split."
+    ],
+    "aiInvestmentContext": "Amazon continues heavy AI infrastructure investment (Trainium, Bedrock, Anthropic stake).",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global corporate reduction; no state-level breakdown published." }
+    ],
+    "occupations": [{ "title": "Corporate employees", "category": "Professional Services", "jobs": null }],
+    "sourceIds": ["src-amazon-2026-cnbc", "src-amazon-2026-techcrunch"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "programId": "amazon-ai-efficiency",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Distinct round from amazon-2025-corporate-ai-efficiency; both are counted as separate announcements."
+  },
+  {
+    "id": "salesforce-2026-agentforce",
+    "slug": "salesforce-2026-agentforce",
+    "companyId": "salesforce",
+    "announcementDate": "2026-02-10",
+    "effectiveDate": null,
+    "globalJobsLost": 1000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "A",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Salesforce eliminated roughly 1,000 roles in early 2026 across marketing, product, data, and its Agentforce AI product, with further small rounds later in the year. CEO Marc Benioff has repeatedly credited AI automation for needing fewer people; Agentforce passed $1.2B in annual recurring revenue.",
+    "whyClassified": "Benioff attributes the reductions directly to AI agents taking over work, matching direct AI replacement (A). It is a distinct 2026 round from the 2025 support reduction.",
+    "whatWeKnow": [
+      "Salesforce confirmed about 1,000 roles cut in early 2026 across several teams.",
+      "A later June 2026 round documented 59 roles in Washington and 74 in California via WARN filings."
+    ],
+    "whatWeDontKnow": [
+      "The full US-versus-international split of the early-2026 round was not disclosed.",
+      "How many affected staff moved to other internal roles is not specified."
+    ],
+    "aiInvestmentContext": "Salesforce sells Agentforce and reports large productivity gains from AI coding agents.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; a later 2026 round documented small US numbers via WARN filings." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-salesforce-2026-ben", "src-salesforce-2026-tnw"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "programId": "salesforce-agentforce",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Distinct from salesforce-2025-agentforce-support."
+  },
+  {
+    "id": "block-2026-ai-automation",
+    "slug": "block-2026-ai-automation",
+    "companyId": "block",
+    "announcementDate": "2026-02-26",
+    "effectiveDate": null,
+    "globalJobsLost": 4000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 40,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Block laid off about 4,000 employees, roughly 40% of staff, reducing headcount from over 10,000 to under 6,000. Co-founder Jack Dorsey cited 'intelligence tools', and the CFO said the cuts would let the company move faster with smaller teams using AI to automate more work.",
+    "whyClassified": "The company said AI automation enables far smaller teams, matching an AI-enabled productivity reduction (B).",
+    "whatWeKnow": [
+      "Block confirmed about 4,000 cuts on February 26, 2026.",
+      "The CFO explicitly linked the reduction to using AI to automate work with smaller teams."
+    ],
+    "whatWeDontKnow": [
+      "Block did not publish a US-versus-international or occupational breakdown.",
+      "How much of the reduction reflects prior over-hiring versus AI specifically is not quantified."
+    ],
+    "aiInvestmentContext": "Block has emphasised AI tooling across Square and Cash App.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Company-wide reduction; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-block-2026-cnbc", "src-block-2026-fortune"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "snap-2026-ai-efficiency",
+    "slug": "snap-2026-ai-efficiency",
+    "companyId": "snap",
+    "announcementDate": "2026-04-15",
+    "effectiveDate": null,
+    "globalJobsLost": 1000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 16,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Snap cut about 1,000 roles, 16% of its workforce. A company memo said rapid advances in AI let its teams reduce repetitive work and increase velocity; CEO Evan Spiegel said small squads were already using AI tools heavily. Snap projected over $500 million in annual expense savings.",
+    "whyClassified": "Snap stated AI lets it operate with fewer people doing repetitive work, matching an AI-enabled productivity reduction (B).",
+    "whatWeKnow": [
+      "Snap confirmed about 1,000 cuts (16%) in April 2026 and removed 300+ open roles.",
+      "The memo credited AI with reducing repetitive work."
+    ],
+    "whatWeDontKnow": [
+      "Snap did not disclose a US-versus-international breakdown.",
+      "The split between AI-driven and cost-driven reductions is not quantified."
+    ],
+    "aiInvestmentContext": "Snap has invested in AI features across Snapchat and its advertising tools.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-snap-2026-cnbc", "src-snap-2026-techcrunch"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "coinbase-2026-ai",
+    "slug": "coinbase-2026-ai",
+    "companyId": "coinbase",
+    "announcementDate": "2026-05-05",
+    "effectiveDate": null,
+    "globalJobsLost": 700,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 14,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Coinbase cut about 700 roles, 14% of staff. CEO Brian Armstrong's memo cited two forces: a crypto-market pullback and AI changing how the company works, saying engineers now ship in days what once took weeks. The cuts targeted 'pure managers' and consolidated teams into smaller AI-native pods.",
+    "whyClassified": "AI is named as one of two explicit drivers alongside market conditions, matching AI-related restructuring (C).",
+    "whatWeKnow": [
+      "Coinbase confirmed about 700 cuts (14%) on May 5, 2026.",
+      "Armstrong cited AI-driven engineering productivity and a crypto-market pullback."
+    ],
+    "whatWeDontKnow": [
+      "How much of the reduction is attributable to AI versus the market pullback is not quantified.",
+      "Coinbase did not publish a geographic breakdown."
+    ],
+    "aiInvestmentContext": "Coinbase has pushed an 'AI at our core' operating model.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Remote-first company; no state-level breakdown published." }
+    ],
+    "occupations": [{ "title": "Managers and consolidated teams", "category": "Professional Services", "jobs": null }],
+    "sourceIds": ["src-coinbase-2026-cnbc", "src-coinbase-2026-fortune"],
+    "investmentRelationship": "CONTEXT_ONLY",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "paypal-2026-ai-transformation",
+    "slug": "paypal-2026-ai-transformation",
+    "companyId": "paypal",
+    "announcementDate": "2026-05-05",
+    "effectiveDate": null,
+    "globalJobsLost": 4760,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 20,
+    "attributionLevel": "D",
+    "confidence": "MEDIUM",
+    "status": "planned",
+    "summary": "PayPal said it would cut about 4,760 roles (20% of staff) phased over two to three years, as new CEO Enrique Lores stripped out redundant structures and accelerated AI integration. PayPal created an 'AI transformation and simplification' team and targeted at least $1.5 billion in savings from the cuts and AI-enabled processes.",
+    "whyClassified": "PayPal tied the reduction to simplification and reallocating toward AI-native operations, matching AI capital reallocation (D). Because it is a multi-year phased plan, it is recorded as planned.",
+    "whatWeKnow": [
+      "PayPal announced about 4,760 cuts (20%) phased over two to three years.",
+      "The plan pairs the reduction with an AI-transformation program targeting $1.5B in savings."
+    ],
+    "whatWeDontKnow": [
+      "As a multi-year plan, how many roles have actually been eliminated so far is not established.",
+      "PayPal did not attribute specific eliminated roles to AI performing the work."
+    ],
+    "aiInvestmentContext": "PayPal appointed a Chief AI Transformation & Simplification Officer to lead its AI agenda.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-paypal-2026-techcrunch", "src-paypal-2026-qz"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Announced multi-year plan; kept out of executed totals."
+  },
+  {
+    "id": "cloudflare-2026-ai",
+    "slug": "cloudflare-2026-ai",
+    "companyId": "cloudflare",
+    "announcementDate": "2026-05-07",
+    "effectiveDate": null,
+    "globalJobsLost": 1100,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 20,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Cloudflare cut about 1,100 roles (20%), reducing headcount from roughly 5,500 to 4,400. CEO Matthew Prince said agentic AI had fundamentally changed the company's work and that the cuts hit 'measurers' — middle management, finance, legal, auditing, and revenue recognition — while it kept and hired engineers and sellers.",
+    "whyClassified": "Prince explicitly attributed the reduction to AI changing the work and stated it was not driven by weak business, matching an AI-enabled productivity reduction (B).",
+    "whatWeKnow": [
+      "Cloudflare confirmed about 1,100 cuts (20%) on May 7, 2026, alongside record revenue.",
+      "Internal AI adoption reportedly surged over 600% in three months."
+    ],
+    "whatWeDontKnow": [
+      "Cloudflare did not publish a US-versus-international breakdown.",
+      "The precise mapping of AI adoption to each eliminated role is not detailed."
+    ],
+    "aiInvestmentContext": "Cloudflare builds and sells AI/edge compute and agent tooling.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+    ],
+    "occupations": [{ "title": "Middle management, finance, legal, audit ('measurers')", "category": "Professional Services", "jobs": null }],
+    "sourceIds": ["src-cloudflare-2026-cnbc", "src-cloudflare-2026-fortune"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "general-motors-2026-it-ai",
+    "slug": "general-motors-2026-it-ai",
+    "companyId": "general-motors",
+    "announcementDate": "2026-05-12",
+    "effectiveDate": null,
+    "globalJobsLost": 550,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "E",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "General Motors eliminated roughly 500–600 information-technology positions. Reporting indicated AI played a role in the IT reductions, though GM did not issue a clear company statement attributing the cuts to AI.",
+    "whyClassified": "Credible reporting connects AI to the IT reductions, but GM did not confirm it, matching a reported AI connection (E). It is not part of the confirmed total.",
+    "whatWeKnow": [
+      "GM cut roughly 500–600 IT roles in May 2026.",
+      "Reporting linked the reductions to AI adoption in IT."
+    ],
+    "whatWeDontKnow": [
+      "GM did not publicly confirm AI as the cause.",
+      "A precise headcount and location breakdown was not disclosed."
+    ],
+    "aiInvestmentContext": "GM has invested in software-defined vehicles and AI-assisted engineering.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "US information-technology roles; no state-level breakdown compiled." }
+    ],
+    "occupations": [{ "title": "Information technology", "category": "Technology", "jobs": null }],
+    "sourceIds": ["src-gm-2026-techcrunch"],
+    "investmentRelationship": "UNCONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "cisco-2026-ai-realign",
+    "slug": "cisco-2026-ai-realign",
+    "companyId": "cisco",
+    "announcementDate": "2026-05-13",
+    "effectiveDate": null,
+    "globalJobsLost": 4000,
+    "usJobsLost": 471,
+    "jobsEstimated": true,
+    "percentageWorkforce": 5,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Cisco said it would cut close to 4,000 roles (about 5%) as it realigned resources around silicon, optics, security, and AI. CFO Mark Patterson said the move was about realigning toward a fast-shifting market rather than a savings-driven restructure. The announcement came alongside record quarterly revenue.",
+    "whyClassified": "AI is explicitly named as one of several areas the restructuring realigns toward, matching AI-related restructuring (C).",
+    "whatWeKnow": [
+      "Cisco announced close to 4,000 cuts (5%) on May 13, 2026.",
+      "California WARN filings documented 471 affected roles in the state."
+    ],
+    "whatWeDontKnow": [
+      "The broader US total beyond the 471 California WARN roles was not disclosed; the US figure here is a documented floor.",
+      "How much of the reduction is attributable to AI specifically versus silicon, optics, and security is not quantified."
+    ],
+    "aiInvestmentContext": "Cisco is investing in AI networking, silicon, and security.",
+    "locations": [
+      { "country": "United States", "state": "CA", "jobs": 471, "note": "California WARN filings documented 471 affected roles." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-cisco-2026-cfodive", "src-cisco-2026-dqindia"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "US headcount reflects the California WARN-documented floor; the full US total was not disclosed."
+  },
+  {
+    "id": "meta-2026-ai-reallocation",
+    "slug": "meta-2026-ai-reallocation",
+    "companyId": "meta",
+    "announcementDate": "2026-05-20",
+    "effectiveDate": null,
+    "globalJobsLost": 8000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 10,
+    "attributionLevel": "D",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Meta laid off about 8,000 employees (10%) in a restructuring it framed as funding its AI push, while redirecting roughly 7,000 workers into new AI-focused teams and cancelling thousands of open roles. The company is reallocating toward AI infrastructure it projects at $115–135 billion in 2026, alongside stricter performance tiers.",
+    "whyClassified": "Meta tied the reduction to reallocating money and people toward AI rather than to AI performing the eliminated jobs, matching AI capital reallocation (D).",
+    "whatWeKnow": [
+      "Meta confirmed about 8,000 cuts (10%) beginning May 20, 2026.",
+      "It reallocated roughly 7,000 staff into AI teams and cited a $115–135B AI investment."
+    ],
+    "whatWeDontKnow": [
+      "How much of the 8,000 reflects performance-based exits versus AI reallocation is not cleanly separable.",
+      "Meta did not publish a US-versus-international split."
+    ],
+    "aiInvestmentContext": "Meta projects $115–135 billion in AI infrastructure spending in 2026.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction (Singapore, UK, US and others); no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-meta-2026-npr", "src-meta-2026-variety"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "relatedInvestmentIds": ["inv-meta-ai-2026"],
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  },
+  {
+    "id": "intuit-2026-ai-reallocation",
+    "slug": "intuit-2026-ai-reallocation",
+    "companyId": "intuit",
+    "announcementDate": "2026-05-20",
+    "effectiveDate": null,
+    "globalJobsLost": 3000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 17,
+    "attributionLevel": "D",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Intuit cut about 3,000 roles (17%) in a restructuring centered on reducing complexity and reallocating resources toward baking AI into its products. This followed a smaller 2024 round that also reallocated toward AI.",
+    "whyClassified": "Intuit tied the reduction to reallocating investment toward AI rather than to AI performing the eliminated jobs, matching AI capital reallocation (D). It is a distinct 2026 round.",
+    "whatWeKnow": [
+      "Intuit confirmed about 3,000 cuts (17%) in 2026 citing reallocation toward AI.",
+      "The move followed Intuit's 2024 reallocation round."
+    ],
+    "whatWeDontKnow": [
+      "Intuit did not attribute specific eliminated roles to AI performing the work.",
+      "A US-versus-international breakdown was not disclosed."
+    ],
+    "aiInvestmentContext": "Intuit has integrated generative AI (Intuit Assist) and signed AI partnerships.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "US-headquartered; full state-level breakdown not published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-intuit-2026-techcrunch"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "programId": "intuit-ai-reallocation",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Distinct from intuit-2024-ai-reallocation."
+  },
+  {
+    "id": "oracle-2026-ai-restructuring",
+    "slug": "oracle-2026-ai-restructuring",
+    "companyId": "oracle",
+    "announcementDate": "2026-06-22",
+    "effectiveDate": null,
+    "globalJobsLost": 21000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 13,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Oracle ended fiscal 2026 with about 141,000 employees, roughly 21,000 fewer than a year earlier. Its SEC filing stated that the adoption and deployment of AI technologies across operations 'have resulted, and may continue to result, in reductions to our workforce', listing AI among several factors including management and product changes, performance, strategic shifts, and acquisitions.",
+    "whyClassified": "A binding SEC filing names AI among multiple restructuring factors, matching AI-related restructuring (C). It is one of the strongest AI-attribution sources in the dataset, but the AI-specific share is not quantified.",
+    "whatWeKnow": [
+      "Oracle's headcount fell about 21,000 year-over-year (roughly 13%).",
+      "Its SEC filing explicitly links AI adoption to workforce reductions."
+    ],
+    "whatWeDontKnow": [
+      "The 21,000 is a net year-over-year headcount decline that also reflects attrition, acquisitions, performance, and strategic changes; the AI-specific portion is not quantified.",
+      "Oracle did not publish a US-versus-international breakdown, and teams on AI/cloud infrastructure were largely spared."
+    ],
+    "aiInvestmentContext": "Oracle is expanding Oracle Cloud Infrastructure and AI data centers; some AI teams grew even as overall headcount fell.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-oracle-2026-yahoo", "src-oracle-2026-cxtoday"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "relatedInvestmentIds": ["inv-oracle-ai-2026"],
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Headcount is a net year-over-year decline; the AI-specific share is unquantified. Recorded at MEDIUM confidence despite the SEC source because AI is one of several stated factors."
+  },
+  {
+    "id": "microsoft-2026-layoffs-context",
+    "slug": "microsoft-2026-layoffs-context",
+    "companyId": "microsoft",
+    "announcementDate": "2026-07-06",
+    "effectiveDate": null,
+    "globalJobsLost": 4800,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "F",
+    "confidence": "UNCONFIRMED",
+    "status": "executed",
+    "summary": "Microsoft cut about 4,800 roles (2.1%) across Xbox and commercial sales. Chief People Officer Amy Coleman said the restructuring aligns the workforce with a changing technology landscape and that 'AI is changing how work gets done', while explicitly stating the layoffs are not the result of AI directly replacing employees.",
+    "whyClassified": "Microsoft explicitly said the cuts are not AI replacing employees, only that AI is reshaping the sector. With no company causal claim, this is context only (F) and is excluded from all AI-attributed totals.",
+    "whatWeKnow": [
+      "Microsoft confirmed about 4,800 cuts on July 6, 2026.",
+      "The company acknowledged AI is reshaping work but denied AI directly replaced these roles."
+    ],
+    "whatWeDontKnow": [
+      "Microsoft did not attribute the cuts to AI causally, so no AI-attributed headcount is counted.",
+      "Whether AI investment influenced the decision is not established."
+    ],
+    "aiInvestmentContext": "Microsoft continues very large AI infrastructure investment and is a major OpenAI backer.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global reduction; no full state-level breakdown compiled." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-microsoft-2026-geekwire", "src-microsoft-2026-techcrunch"],
+    "investmentRelationship": "CONTEXT_ONLY",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": "Consistent with the 2025 Microsoft treatment: recorded as context only because the company did not attribute the cuts to AI."
+  },
+  {
+    "id": "monday-2026-ai-strategy",
+    "slug": "monday-2026-ai-strategy",
+    "companyId": "monday-com",
+    "announcementDate": "2026-07-25",
+    "effectiveDate": null,
+    "globalJobsLost": 600,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": 20,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "monday.com cut roughly 600 roles (about 20%), describing the restructuring in a regulatory filing as part of an AI-driven strategy shift. The cuts came as the company reoriented around AI-native product development.",
+    "whyClassified": "AI is named in a regulatory filing as central to the strategy behind the restructuring, matching AI-related restructuring (C).",
+    "whatWeKnow": [
+      "monday.com cut roughly 600 roles (about 20%) in July 2026.",
+      "The company framed the move around an AI-driven strategy in a regulatory filing."
+    ],
+    "whatWeDontKnow": [
+      "The company did not attribute specific eliminated roles to AI performing the work.",
+      "A geographic breakdown was not disclosed; monday.com is headquartered in Israel."
+    ],
+    "aiInvestmentContext": "monday.com is investing in AI features across its work-management platform.",
+    "locations": [
+      { "country": "Israel", "state": null, "jobs": null, "note": "Israel-headquartered; no country-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-monday-2026-techcrunch"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-02",
+    "notes": null
+  }
+]

@@ -16,9 +16,11 @@ import {
   type WorkforceEvent,
 } from "./schemas";
 import {
+  externalBenchmarksFileSchema,
   geographicReferenceSchema,
   householdReferenceSchema,
   wageReferenceSchema,
+  type ExternalBenchmark,
   type GeographicReference,
   type HouseholdReference,
   type WageReference,
@@ -36,6 +38,7 @@ export interface Dataset {
   wageReference: WageReference;
   householdReference: HouseholdReference;
   geographicReference: GeographicReference;
+  externalBenchmarks: ExternalBenchmark[];
   meta: {
     dataThrough: string;
     lastDatasetUpdate: string;
@@ -118,6 +121,9 @@ export function loadDataset(): Dataset {
     geographicReference: geographicReferenceSchema.parse(
       readJson("reference/geographic-reference.json"),
     ),
+    externalBenchmarks: externalBenchmarksFileSchema.parse(
+      readJson("reference/external-benchmarks.json"),
+    ).benchmarks,
     meta,
   };
 

@@ -6,6 +6,7 @@
  */
 import { loadDataset } from "../lib/data";
 import { ATTRIBUTION_RULES, confidenceMeetsThreshold } from "../lib/attribution";
+import { COVERAGE_LAG_WARN_DAYS } from "../lib/site";
 
 const errors: string[] = [];
 const warnings: string[] = [];
@@ -131,6 +132,26 @@ function main() {
     if (correction.eventId && !eventIds.has(correction.eventId)) {
       fail(`Correction ${correction.id} references unknown event ${correction.eventId}`);
     }
+  }
+
+  // Coverage dating: dataThrough must not predate the newest published event, or the
+  // site would claim coverage it does not have.
+  const publishedDates = events.filter((e) => e.published).map((e) => e.announcementDate).sort();
+  const newestEvent = publishedDates[publishedDates.length - 1];
+  if (newestEvent && dataset.meta.dataThrough < newestEvent) {
+    fail(
+      `methodology.json dataThrough (${dataset.meta.dataThrough}) is earlier than the newest published event (${newestEvent})`,
+    );
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const lagDays = Math.round(
+    (Date.parse(today) - Date.parse(dataset.meta.dataThrough)) / (1000 * 60 * 60 * 24),
+  );
+  if (lagDays > COVERAGE_LAG_WARN_DAYS) {
+    warn(
+      `DATA COVERAGE LAG: research coverage (dataThrough ${dataset.meta.dataThrough}) is ${lagDays} days behind today. Refresh the dataset.`,
+    );
   }
 
   // Likely-duplicate detection: same company and announcement date.

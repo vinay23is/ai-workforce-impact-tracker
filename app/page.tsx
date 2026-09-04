@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/layout/Container";
-import { HeadlineMetric, SecondaryMetric } from "@/components/ui/Metric";
+import { HeadlineMetric, SecondaryMetric, StatTile } from "@/components/ui/Metric";
 import { SectionHeading } from "@/components/ui/Page";
 import { CumulativeChart, type ChartSeries } from "@/components/charts/CumulativeChart";
 import { BarList } from "@/components/charts/BarList";
@@ -54,7 +54,7 @@ export default function HomePage() {
   }));
 
   const companies = getJobsByCompany(dataset)
-    .slice(0, 8)
+    .slice(0, 10)
     .map((g) => ({
       key: g.key,
       label: g.label,
@@ -62,6 +62,8 @@ export default function HomePage() {
       confirmedValue: g.confirmedJobs,
       href: `/companies/${g.key}`,
     }));
+
+  const benchmark = stats.primaryBenchmark;
 
   return (
     <>
@@ -78,20 +80,19 @@ export default function HomePage() {
             />
             <div className="text-sm text-muted">
               <p>
-                Across {formatInt(stats.confirmed.events)} events at{" "}
-                {formatInt(stats.companiesTracked)} companies. One event with an undisclosed
-                headcount is counted but adds no jobs.
+                Across {formatInt(stats.confirmed.events)} verified events at{" "}
+                {formatInt(stats.confirmedCompanies)} companies (categories A–C, executed or in
+                progress). Every counted event has a source explicitly linking AI to the decision.
               </p>
               <p className="mt-3">
-                Every counted event has at least one source explicitly linking AI to the workforce
-                decision.{" "}
+                A broader, still-verified total and an independent industry benchmark are below.{" "}
                 <Link href="/methodology" className="text-accent underline underline-offset-2">
                   How we classify
                 </Link>
                 .
               </p>
               <p className="mt-4 text-xs text-faint">
-                Data through {formatDate(stats.dataThrough)} · Last dataset update{" "}
+                Research coverage through {formatDate(stats.dataThrough)} · Repository updated{" "}
                 {formatDate(stats.lastDatasetUpdate)}
               </p>
             </div>
@@ -101,72 +102,75 @@ export default function HomePage() {
 
       <section className="border-b border-rule">
         <Container className="py-10">
-          <SectionHeading>The numbers in context</SectionHeading>
-          <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+          <SectionHeading>Verified ledger</SectionHeading>
+          <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
             <SecondaryMetric
               value={formatInt(stats.allLinked.jobs)}
-              label="All AI-linked cuts"
-              note={
-                <>
-                  Broader set including capital reallocation and reported connections (categories
-                  A–E). Excludes context-only cases.
-                </>
-              }
+              label="All verified AI-linked cuts"
+              note="Categories A–E, executed. Includes capital reallocation and reported connections; excludes context-only."
             />
             <SecondaryMetric
               value={formatInt(stats.direct.jobs)}
               label="Direct AI replacement"
-              note="Roles where AI performs work people previously did (category A)."
+              note="Category A: AI performs work people previously did."
             />
             <SecondaryMetric
               value={formatInt(stats.capital.jobs)}
-              label="AI capital-reallocation cuts"
-              note="Cuts tied to shifting money toward AI. This does not mean AI performed the jobs (category D)."
-            />
-            <SecondaryMetric
-              value={formatApproxCurrency(stats.wage.totalAnnualWages)}
-              label="Estimated annual wages represented"
-              estimated
-              note={
-                <>
-                  Rough estimate for confirmed cuts using reference wages, not permanent economic
-                  loss.{" "}
-                  <Link href="/methodology#wages" className="underline underline-offset-2">
-                    Method
-                  </Link>
-                  .
-                </>
-              }
-            />
-            <SecondaryMetric
-              value={formatApproxCount(stats.household.people)}
-              label="People in affected worker households"
-              estimated
-              note={
-                <>
-                  Confirmed cuts × average US household size ({stats.household.averageHouseholdSize}).
-                  Not a count of identified people; may double-count.{" "}
-                  <Link href="/methodology#households" className="underline underline-offset-2">
-                    Method
-                  </Link>
-                  .
-                </>
-              }
+              label="AI capital reallocation"
+              note="Category D: cuts tied to shifting money toward AI. Not AI performing the jobs."
             />
             <SecondaryMetric
               value={formatInt(stats.planned.jobs)}
-              label="Announced but not yet executed"
-              note="AI-attributed reductions stated as future targets. Kept out of the executed totals above."
+              label="Announced / planned"
+              note="AI-attributed reductions stated as future targets. Kept out of the executed totals."
             />
           </div>
           <div className="mt-6 flex flex-wrap gap-x-6 gap-y-1 text-xs text-faint">
             <span>{formatInt(stats.companiesTracked)} companies tracked</span>
             <span>{stats.industriesAffected} industries</span>
             <span>{stats.countriesCount} countries</span>
-            <span>US-specific counts not separately disclosed for most events</span>
+            <span>{formatInt(stats.confirmed.events)} confirmed of {formatInt(stats.coverage.trackedEvents)} tracked events</span>
           </div>
         </Container>
       </section>
+
+      {benchmark && (
+        <section className="border-b border-rule bg-surface">
+          <Container className="py-10">
+            <SectionHeading>Independent US benchmark</SectionHeading>
+            <div className="mt-6 grid gap-6 lg:grid-cols-[auto_1fr] lg:items-start lg:gap-12">
+              <div>
+                <div className="tnum font-serif text-5xl font-semibold sm:text-6xl">
+                  {formatInt(benchmark.jobs)}
+                </div>
+                <p className="mt-2 max-w-xs text-sm font-medium text-ink-soft">
+                  {benchmark.metric}, {new Date(benchmark.periodStart).getUTCFullYear()} through
+                  August
+                </p>
+                <p className="mt-1 text-xs text-muted">Source: {benchmark.publisher}</p>
+              </div>
+              <div className="max-w-prose text-sm leading-relaxed text-muted">
+                <p>
+                  This benchmark uses a different methodology and counts announced US job cuts where
+                  employers cited AI. It is shown for context and is{" "}
+                  <strong className="font-semibold text-ink-soft">not</strong> added to this
+                  site&apos;s verified-event totals.
+                </p>
+                <p className="mt-3">
+                  Our verified confirmed total ({formatInt(stats.confirmed.jobs)}) is lower and
+                  spans 2023–2026 globally; the benchmark is US-only, announcement-based, and 2026
+                  only. The gap reflects events we excluded for insufficient causal evidence,
+                  announced plans not yet executed, and smaller employers we have not yet reviewed.{" "}
+                  <Link href="/methodology#benchmarks" className="text-accent underline underline-offset-2">
+                    Why the numbers differ
+                  </Link>
+                  .
+                </p>
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
 
       <section className="border-b border-rule">
         <Container className="py-10">
@@ -208,6 +212,39 @@ export default function HomePage() {
               <BarList items={companies} />
             </div>
           </div>
+        </Container>
+      </section>
+
+      <section className="border-b border-rule">
+        <Container className="py-10">
+          <SectionHeading>Data quality &amp; coverage</SectionHeading>
+          <p className="mb-6 mt-2 max-w-prose text-sm text-muted">
+            Where the dataset is thin, we show it. Coverage is curated, not exhaustive — absence
+            from the dataset means an event has not yet been reviewed to this standard.
+          </p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            <StatTile value={formatInt(stats.coverage.trackedEvents)} label="Tracked events" />
+            <StatTile value={formatInt(stats.coverage.companiesRepresented)} label="Companies" />
+            <StatTile value={formatDate(stats.dataThrough)} label="Coverage through" />
+            <StatTile value={formatInt(stats.coverage.unknownUsHeadcount)} label="Unknown US headcount" />
+            <StatTile value={formatInt(stats.coverage.secondaryOnly)} label="Secondary-source only" />
+            <StatTile
+              value={`${stats.wage.coveragePct}%`}
+              label="Confirmed jobs with US data"
+              sub="basis for US wage/household"
+            />
+          </div>
+          <p className="mt-4 max-w-prose text-xs text-muted">
+            US-specific estimates cover only the {stats.wage.coveragePct}% of confirmed cuts with a
+            disclosed US headcount. On that basis, estimated US annual wages represented are{" "}
+            {formatApproxCurrency(stats.wage.totalAnnualWages)} and estimated people in affected US
+            worker households are {formatApproxCount(stats.household.people)}. Most companies announce
+            global figures without a US breakdown, so these are floors, not totals.{" "}
+            <Link href="/methodology#estimates" className="underline">
+              Method
+            </Link>
+            .
+          </p>
         </Container>
       </section>
 

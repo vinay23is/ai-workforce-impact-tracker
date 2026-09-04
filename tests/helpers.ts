@@ -106,6 +106,7 @@ export function makeDataset(overrides: Partial<Dataset> = {}): Dataset {
     wageReference,
     householdReference,
     geographicReference,
+    externalBenchmarks: [],
     meta: {
       dataThrough: "2025-01-01",
       lastDatasetUpdate: "2025-01-01",

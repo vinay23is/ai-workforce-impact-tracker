@@ -20,5 +20,27 @@
     "investmentType": "ai_infrastructure",
     "description": "Amazon is expanding AI infrastructure and agent products (including Trainium chips and Bedrock) and holds a large stake in Anthropic. It did not disclose a single figure tied to the 2025 corporate restructuring.",
     "sourceIds": ["src-amazon-2025-cnbc"]
+  },
+  {
+    "id": "inv-meta-ai-2026",
+    "companyId": "meta",
+    "announcementDate": "2026-05-20",
+    "amount": 125000000000,
+    "currency": "USD",
+    "timePeriod": "2026",
+    "investmentType": "ai_infrastructure",
+    "description": "Meta cited an AI infrastructure investment of roughly $115–135 billion in 2026 (midpoint recorded here) as it reallocated staff and capital toward AI.",
+    "sourceIds": ["src-meta-2026-npr"]
+  },
+  {
+    "id": "inv-oracle-ai-2026",
+    "companyId": "oracle",
+    "announcementDate": "2026-06-22",
+    "amount": null,
+    "currency": "USD",
+    "timePeriod": "Ongoing",
+    "investmentType": "data_centers",
+    "description": "Oracle is expanding Oracle Cloud Infrastructure and AI data centers; some AI teams grew even as overall headcount fell. It did not disclose a single figure tied to the fiscal 2026 reductions.",
+    "sourceIds": ["src-oracle-2026-cxtoday"]
   }
 ]

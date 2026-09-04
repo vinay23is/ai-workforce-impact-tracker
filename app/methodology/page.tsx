@@ -166,28 +166,71 @@ export default function MethodologyPage() {
             </p>
 
             <h3 id="wages" className="mt-6 font-medium text-ink">
-              Estimated annual wages
+              Estimated annual wages (US only)
             </h3>
             <p className="mt-1">
               This is the annual wage represented by tracked cuts, not GDP loss or permanent economic
               damage. Workers may receive severance and unemployment benefits, and many find other
-              work at higher or lower pay. For each event we use, in order: a known compensation figure
-              for the affected group; otherwise a reference industry median; otherwise the national
-              median. We apply the figure to the US headcount where known and the global headcount
-              otherwise, which introduces error because reference wages are US-based. Reference wages
-              come from the {" "}
-              <span className="text-ink-soft">U.S. Bureau of Labor Statistics (OEWS)</span>.
+              work at higher or lower pay. Because our reference wages are US figures, we value{" "}
+              <strong>only the verified US headcount</strong>. If a company announced a global figure
+              without a US breakdown, that event is excluded from the wage total rather than valued
+              with a US wage. For each covered event we use, in order: a known compensation figure for
+              the affected group; otherwise a reference industry median; otherwise the national median,
+              from the{" "}
+              <span className="text-ink-soft">U.S. Bureau of Labor Statistics (OEWS)</span>. Because
+              US-specific disclosure is rare, coverage is low and the resulting figures are floors, not
+              totals — the homepage shows the coverage share.
             </p>
 
             <h3 id="households" className="mt-6 font-medium text-ink">
-              Estimated household exposure
+              Estimated household exposure (US only)
             </h3>
             <p className="mt-1">
-              This multiplies affected workers by the average US household size (
-              {loadDataset().householdReference.averageHouseholdSize}, US Census ACS). It is not a
-              count of individually identified people and may double-count households that contain more
-              than one affected worker. It is a way to convey that a job loss reaches a household, not
-              a single person.
+              This multiplies the verified US headcount by the average US household size (
+              {loadDataset().householdReference.averageHouseholdSize}, US Census ACS). Global jobs
+              without a verified US allocation are excluded, because the household-size figure is
+              US-specific. It is not a count of individually identified people and may double-count
+              households that contain more than one affected worker.
+            </p>
+          </section>
+
+          <section id="benchmarks">
+            <H>Benchmarks and why they differ</H>
+            <p>
+              Independent organisations publish much larger AI-layoff totals. We show one on the
+              homepage for context but never add it to our ledger, because the methodologies differ:
+            </p>
+            <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-muted">
+              <li>
+                Challenger, Gray &amp; Christmas counts <em>announced</em> US job cuts where an employer
+                cited AI. It is announcement-based (not verified as executed), US-only, and
+                self-reported by employers.
+              </li>
+              <li>
+                jobloss.ai aggregates US AI-linked reports with its own inclusion rules.
+              </li>
+            </ul>
+            <p className="mt-3">
+              Our confirmed total is lower and deliberately so. The difference comes from events we
+              excluded for insufficient causal evidence (for example, a company that laid off staff
+              while investing in AI but did not attribute the cuts to AI, or one that explicitly said
+              AI did not drive the decision), announced plans we hold as &ldquo;planned&rdquo; until
+              executed, the global-versus-US scope difference, and smaller employers we have not yet
+              reviewed. Our broader all-verified total (categories A–E) is closer but still
+              conservative. If our number were far below a credible benchmark with no explanation, that
+              would signal our research is incomplete — so we track that gap openly.
+            </p>
+          </section>
+
+          <section>
+            <H>Dating and coverage</H>
+            <p>
+              We separate two dates. <strong>Research coverage through</strong> is the date up to which
+              events have been reviewed to this standard; it is the meaningful currency of the dataset.
+              <strong> Repository updated</strong> is simply when the files last changed. A recent
+              commit does not imply recent coverage. Validation fails the build if the stated coverage
+              date predates the newest event, and warns when coverage falls far behind the current
+              date.
             </p>
           </section>
 

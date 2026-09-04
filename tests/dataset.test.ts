@@ -30,6 +30,25 @@ describe("real dataset integrity", () => {
       if (correction.eventId) expect(ids.has(correction.eventId)).toBe(true);
     }
   });
+
+  it("loads 2026 events automatically from the year files", () => {
+    expect(dataset.events.some((e) => e.announcementDate.startsWith("2026"))).toBe(true);
+  });
+
+  it("keeps dataThrough at or after the newest published event", () => {
+    const newest = dataset.events
+      .filter((e) => e.published)
+      .map((e) => e.announcementDate)
+      .sort()
+      .at(-1)!;
+    expect(dataset.meta.dataThrough >= newest).toBe(true);
+  });
+
+  it("carries external benchmarks that are separate from the event ledger", () => {
+    expect(dataset.externalBenchmarks.length).toBeGreaterThan(0);
+    const eventIds = new Set(dataset.events.map((e) => e.id));
+    for (const b of dataset.externalBenchmarks) expect(eventIds.has(b.id)).toBe(false);
+  });
 });
 
 describe("schema rejects invalid events", () => {

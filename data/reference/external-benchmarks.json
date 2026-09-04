@@ -1,0 +1,46 @@
+{
+  "benchmarks": [
+    {
+      "id": "challenger-ai-cited-2026-08",
+      "publisher": "Challenger, Gray & Christmas",
+      "metric": "US job-cut announcements citing AI",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-08-31",
+      "jobs": 116175,
+      "geography": "United States",
+      "scope": "announced",
+      "sourceUrl": "https://www.challengergray.com/wp-content/uploads/2026/09/Challenger-Report-August-2026.pdf",
+      "retrievedAt": "2026-09-02",
+      "methodologyNote": "Counts US job cuts that employers announced and where AI was given as a reason. Announcement-based (not verified as executed) and per-employer self-reported. Uses a different methodology from this tracker and is not added to our verified-event totals.",
+      "primary": true
+    },
+    {
+      "id": "challenger-ai-cited-cumulative-2026-08",
+      "publisher": "Challenger, Gray & Christmas",
+      "metric": "US job-cut announcements citing AI, cumulative since 2023",
+      "periodStart": "2023-01-01",
+      "periodEnd": "2026-08-31",
+      "jobs": 188000,
+      "geography": "United States",
+      "scope": "announced",
+      "sourceUrl": "https://www.challengergray.com/wp-content/uploads/2026/09/Challenger-Report-August-2026.pdf",
+      "retrievedAt": "2026-09-02",
+      "methodologyNote": "Cumulative announcement-based AI-cited US job cuts since 2023. Not directly comparable with this tracker's verified-event total.",
+      "primary": false
+    },
+    {
+      "id": "jobloss-ai-2026-09",
+      "publisher": "jobloss.ai",
+      "metric": "US AI-linked job losses",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2026-09-02",
+      "jobs": 129810,
+      "geography": "United States",
+      "scope": "mixed",
+      "sourceUrl": "https://jobloss.ai/",
+      "retrievedAt": "2026-09-02",
+      "methodologyNote": "Independent tracker of US AI-linked job losses across ~50 reports and 16 industries. Uses its own inclusion and attribution rules; shown for comparison, not combined with our ledger.",
+      "primary": false
+    }
+  ]
+}

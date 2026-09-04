@@ -47,16 +47,22 @@ and defined in code in [`lib/attribution.ts`](lib/attribution.ts).
 
 ```
 data/
-  events/2023.json, 2024.json, 2025.json   source of truth for events
+  events/2023.json … 2026.json              source of truth for events, by year
   companies.json                            companies
   industries.json                           controlled industry taxonomy
   sources.json                              sources, linked to events
   investments.json                          disclosed AI investments
   corrections.json                          published correction log
   methodology.json                          version and coverage metadata
-  reference/                                wage, household, and US-geography reference data
+  reference/                                wage, household, US-geography, and external-benchmark data
   candidates/                               unverified drafts (never loaded, never counted)
 ```
+
+External benchmarks (e.g. Challenger, Gray & Christmas; jobloss.ai) live in
+`data/reference/external-benchmarks.json`. They use other organisations' methodologies, are shown
+for context only, and are never added to this tracker's totals. See
+[`docs/RESEARCH_NOTE_2026.md`](docs/RESEARCH_NOTE_2026.md) for how our verified numbers compare and
+why they differ.
 
 This V1 is a curated set of well-documented events, not a continuous or exhaustive feed. Absence
 from the dataset means an event has not yet been reviewed to this standard — not that it did not

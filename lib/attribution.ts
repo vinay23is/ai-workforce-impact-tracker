@@ -7,7 +7,7 @@
  * from what the methodology page describes.
  */
 
-export const METHODOLOGY_VERSION = "1.0.0";
+export const METHODOLOGY_VERSION = "1.1.0";
 
 export const ATTRIBUTION_LEVELS = ["A", "B", "C", "D", "E", "F"] as const;
 export type AttributionLevel = (typeof ATTRIBUTION_LEVELS)[number];

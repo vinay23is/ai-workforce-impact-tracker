@@ -66,10 +66,10 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
   );
   const attributionMeta = ATTRIBUTION_META[event.attributionLevel];
 
-  const headcount = event.globalJobsLost ?? event.usJobsLost;
+  // Household exposure is US-only: the average household size is a US figure.
   const household =
-    headcount !== null
-      ? getEstimatedHouseholdExposure(headcount, dataset.householdReference.averageHouseholdSize)
+    event.usJobsLost !== null
+      ? getEstimatedHouseholdExposure(event.usJobsLost, dataset.householdReference.averageHouseholdSize)
       : null;
 
   return (
@@ -220,14 +220,14 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
                 )}
                 {wage && (
                   <NumberRow
-                    label="Est. annual wages"
+                    label="Est. US annual wages"
                     value={formatApproxCurrency(wage.estimatedAnnualWage)}
                     estimated
                   />
                 )}
                 {household && (
                   <NumberRow
-                    label="Est. household exposure"
+                    label="Est. US household exposure"
                     value={`${formatApproxCount(household.people)} people`}
                     estimated
                   />

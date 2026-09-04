@@ -8,32 +8,25 @@ export interface EventWageEstimate {
   estimatedAnnualWage: number;
   perWorkerAnnualWage: number;
   jobsUsed: number;
-  jobsBasis: "us" | "global";
+  jobsBasis: "us";
   method: WageMethod;
   wageSource: string;
   wageSourceYear: number;
-  /** Lower when a national/industry wage is applied to a non-US or estimated headcount. */
   confidence: "MEDIUM" | "LOW";
 }
 
-function bestHeadcount(event: WorkforceEvent): { jobs: number; basis: "us" | "global" } | null {
-  if (event.usJobsLost !== null) return { jobs: event.usJobsLost, basis: "us" };
-  if (event.globalJobsLost !== null) return { jobs: event.globalJobsLost, basis: "global" };
-  return null;
-}
-
 /**
- * Wage estimate for a single event using the documented hierarchy:
- * known compensation, then BLS industry median, then the national median.
- * Returns null when there is not enough information (no headcount).
+ * Wage estimate for a single event, US-only. The reference wages are US (BLS),
+ * so we only value the verified US headcount. If the US count is unknown we return
+ * null rather than applying a US wage to a global or non-US headcount.
  */
 export function estimateEventWage(
   event: WorkforceEvent,
   company: Company | undefined,
   wageRef: WageReference,
 ): EventWageEstimate | null {
-  const headcount = bestHeadcount(event);
-  if (!headcount) return null;
+  if (event.usJobsLost === null) return null;
+  const jobs = event.usJobsLost;
 
   let perWorker: number;
   let method: WageMethod;
@@ -55,15 +48,13 @@ export function estimateEventWage(
   }
 
   const confidence: "MEDIUM" | "LOW" =
-    method === "known_compensation" && headcount.basis === "us" && !event.jobsEstimated
-      ? "MEDIUM"
-      : "LOW";
+    method === "known_compensation" && !event.jobsEstimated ? "MEDIUM" : "LOW";
 
   return {
-    estimatedAnnualWage: Math.round(perWorker * headcount.jobs),
+    estimatedAnnualWage: Math.round(perWorker * jobs),
     perWorkerAnnualWage: perWorker,
-    jobsUsed: headcount.jobs,
-    jobsBasis: headcount.basis,
+    jobsUsed: jobs,
+    jobsBasis: "us",
     method,
     wageSource: wageRef.source,
     wageSourceYear: wageRef.sourceYear,
@@ -73,17 +64,19 @@ export function estimateEventWage(
 
 export interface WageImpact {
   totalAnnualWages: number;
-  jobsCovered: number;
+  /** Verified US jobs that received a wage estimate. */
+  usJobsCovered: number;
   eventsCovered: number;
-  eventsWithoutEstimate: number;
+  eventsWithoutUsHeadcount: number;
 }
 
-export function getEstimatedWageImpact(
-  dataset: Dataset,
-  events: WorkforceEvent[],
-): WageImpact {
+/**
+ * Aggregate US wage exposure across a set of events. Only events with a verified
+ * US headcount contribute; everything else is reported as uncovered.
+ */
+export function getEstimatedWageImpact(dataset: Dataset, events: WorkforceEvent[]): WageImpact {
   let total = 0;
-  let jobsCovered = 0;
+  let usJobsCovered = 0;
   let eventsCovered = 0;
   let eventsWithout = 0;
 
@@ -95,16 +88,11 @@ export function getEstimatedWageImpact(
       continue;
     }
     total += estimate.estimatedAnnualWage;
-    jobsCovered += estimate.jobsUsed;
+    usJobsCovered += estimate.jobsUsed;
     eventsCovered += 1;
   }
 
-  return {
-    totalAnnualWages: total,
-    jobsCovered,
-    eventsCovered,
-    eventsWithoutEstimate: eventsWithout,
-  };
+  return { totalAnnualWages: total, usJobsCovered, eventsCovered, eventsWithoutUsHeadcount: eventsWithout };
 }
 
 export interface HouseholdExposure {
@@ -114,14 +102,14 @@ export interface HouseholdExposure {
 }
 
 /**
- * Rough exposure estimate: affected workers times the average US household size.
- * This is not a count of identified people and may double-count households that
- * contain more than one affected worker.
+ * US household exposure: verified US workers times the US Census average household
+ * size. Global jobs without a verified US allocation are excluded, because the
+ * household-size figure is US-specific.
  */
-export function getEstimatedHouseholdExposure(jobs: number, averageHouseholdSize: number): HouseholdExposure {
+export function getEstimatedHouseholdExposure(usJobs: number, averageHouseholdSize: number): HouseholdExposure {
   return {
-    people: Math.round(jobs * averageHouseholdSize),
-    jobs,
+    people: Math.round(usJobs * averageHouseholdSize),
+    jobs: usJobs,
     averageHouseholdSize,
   };
 }
