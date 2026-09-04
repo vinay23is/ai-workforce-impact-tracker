@@ -1,0 +1,24 @@
+[
+  {
+    "id": "corr-klarna-rehire",
+    "date": "2026-08-15",
+    "eventId": "klarna-2024-ai-assistant",
+    "entity": "Klarna — klarna-2024-ai-assistant",
+    "field": "status / summary",
+    "oldValue": "Recorded as a completed AI-driven workforce reduction of about 40%.",
+    "newValue": "Marked in progress and noted Klarna's 2025 decision to rehire some human agents after quality concerns.",
+    "reason": "Later reporting showed a partial reversal, so the long-run net reduction is uncertain.",
+    "sourceUrl": "https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396"
+  },
+  {
+    "id": "corr-amazon-scope",
+    "date": "2026-09-01",
+    "eventId": "amazon-2025-corporate-ai-efficiency",
+    "entity": "Amazon — amazon-2025-corporate-ai-efficiency",
+    "field": "globalJobsLost",
+    "oldValue": "Considered recording a reported 'up to 30,000' figure.",
+    "newValue": "Recorded only the company-confirmed ~14,000; the 30,000 figure is treated as a projection and excluded.",
+    "reason": "The tracker counts confirmed executed reductions, not projections.",
+    "sourceUrl": "https://www.geekwire.com/2025/amazon-confirms-14000-corporate-job-cuts-says-push-for-efficiency-gains-will-continue-into-2026/"
+  }
+]

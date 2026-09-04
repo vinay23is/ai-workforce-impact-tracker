@@ -1,0 +1,50 @@
+{
+  "event": {
+    "id": "company-2026-short-slug",
+    "slug": "company-2026-short-slug",
+    "companyId": "existing-company-id",
+    "announcementDate": "2026-01-01",
+    "effectiveDate": null,
+    "globalJobsLost": null,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": null,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "One or two sentences describing what happened.",
+    "whyClassified": "Why this attribution category fits, based on the evidence.",
+    "whatWeKnow": ["A fact supported by a source."],
+    "whatWeDontKnow": ["Something the sources do not establish."],
+    "aiInvestmentContext": null,
+    "locations": [{ "country": "United States", "state": null, "jobs": null, "note": null }],
+    "occupations": [],
+    "sourceIds": ["src-company-2026-example"],
+    "investmentRelationship": "UNCONFIRMED",
+    "relatedInvestmentIds": [],
+    "knownAnnualCompensationPerWorker": null,
+    "parentEventId": null,
+    "programId": null,
+    "published": true,
+    "lastReviewedAt": "2026-01-01",
+    "notes": null
+  },
+  "sources": [
+    {
+      "id": "src-company-2026-example",
+      "eventId": "company-2026-short-slug",
+      "url": "https://example.com/article",
+      "title": "Headline of the source",
+      "publisher": "Publisher",
+      "publishedAt": "2026-01-01",
+      "retrievedAt": "2026-01-01",
+      "sourceType": "financial_press",
+      "primarySource": false,
+      "supportsHeadcount": true,
+      "supportsAIAttribution": true,
+      "supportsLocation": false,
+      "supportsInvestmentRelationship": false,
+      "evidenceNote": "What this source establishes, paraphrased."
+    }
+  ]
+}

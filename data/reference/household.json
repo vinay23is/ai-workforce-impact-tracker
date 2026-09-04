@@ -1,0 +1,7 @@
+{
+  "averageHouseholdSize": 2.51,
+  "source": "U.S. Census Bureau, American Community Survey (2019–2023 5-year estimates)",
+  "sourceUrl": "https://data.census.gov/table?q=DP02",
+  "year": 2023,
+  "note": "Average number of people per household in the United States. Used to convey that a job loss reaches a household, not a single person. This is not a count of identified individuals and may double-count households that contain more than one affected worker."
+}

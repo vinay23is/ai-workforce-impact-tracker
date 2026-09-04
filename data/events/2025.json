@@ -1,0 +1,216 @@
+[
+  {
+    "id": "workday-2025-ai-restructuring",
+    "slug": "workday-2025-ai-restructuring",
+    "companyId": "workday",
+    "announcementDate": "2025-02-05",
+    "effectiveDate": null,
+    "globalJobsLost": 1750,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": 8.5,
+    "attributionLevel": "D",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Workday cut 1,750 roles, about 8.5% of staff. CEO Carl Eschenbach said the company was prioritising investment in AI and platform development and freeing up resources to do so, while continuing to hire in some areas.",
+    "whyClassified": "Workday tied the reduction to reallocating resources toward AI investment rather than to AI performing the eliminated work, which fits AI capital reallocation (D).",
+    "whatWeKnow": [
+      "Workday eliminated 1,750 roles, about 8.5% of its workforce.",
+      "The CEO cited prioritising AI and platform investment as a reason for the restructuring."
+    ],
+    "whatWeDontKnow": [
+      "Workday did not say AI performed the eliminated roles.",
+      "The US versus international split of the cut was not fully specified, though US employees received at least 12 weeks of severance."
+    ],
+    "aiInvestmentContext": "Workday has added AI features across its finance and HR products.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "US and international roles affected; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-workday-2025-cnbc", "src-workday-2025-wapo"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": null
+  },
+  {
+    "id": "chegg-2025-ai-disruption",
+    "slug": "chegg-2025-ai-disruption",
+    "companyId": "chegg",
+    "announcementDate": "2025-05-12",
+    "effectiveDate": null,
+    "globalJobsLost": 248,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": 22,
+    "attributionLevel": "E",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Chegg cut about 248 roles, roughly 22% of its workforce, as students increasingly used AI tools such as ChatGPT instead of its homework-help and tutoring services. The company linked the reduction to AI-driven declines in traffic and revenue and said it would close its US and Canada offices.",
+    "whyClassified": "Chegg attributed the reduction to AI tools eroding demand for its services, not to AI performing employees' work internally. Credible reporting and company statements connect AI to the reduction, which fits a reported AI connection (E). It is not part of the confirmed direct-attribution total.",
+    "whatWeKnow": [
+      "Chegg cut about 248 roles (~22%) and cited competition from AI tools for its declining traffic.",
+      "The company said it would close offices in the US and Canada."
+    ],
+    "whatWeDontKnow": [
+      "The reduction stems from AI-driven demand loss rather than internal automation, so it is excluded from the confirmed total.",
+      "Chegg did not publish a state-level breakdown of the cut."
+    ],
+    "aiInvestmentContext": "Chegg has added its own AI study tools but faces competition from general-purpose AI assistants.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "US and Canada offices affected; no state-level breakdown published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-chegg-2025-cnbc"],
+    "investmentRelationship": "UNCONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": null
+  },
+  {
+    "id": "ibm-2025-askhr",
+    "slug": "ibm-2025-askhr",
+    "companyId": "ibm",
+    "announcementDate": "2025-05-06",
+    "effectiveDate": null,
+    "globalJobsLost": 200,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "A",
+    "confidence": "VERY_HIGH",
+    "status": "executed",
+    "summary": "IBM said its AskHR AI agents took over routine human-resources tasks, replacing the work of about 200 HR roles. CEO Arvind Krishna said IBM reinvested the savings and that its total headcount actually rose, as it hired more software engineers and salespeople.",
+    "whyClassified": "Krishna said AI agents directly perform HR work previously done by about 200 people, which fits direct AI replacement (A).",
+    "whatWeKnow": [
+      "IBM says AskHR automated routine HR tasks equivalent to about 200 roles.",
+      "Krishna said IBM's overall headcount rose as it hired in engineering and sales."
+    ],
+    "whatWeDontKnow": [
+      "IBM did not publish the exact roles or locations of the roughly 200 affected positions.",
+      "Because IBM hired elsewhere, this is a reallocation at the company level even though the specific HR roles were replaced by AI."
+    ],
+    "aiInvestmentContext": "IBM markets watsonx Orchestrate and AI agents such as AskHR.",
+    "locations": [],
+    "occupations": [
+      { "title": "Human resources administration", "category": "Human Resources", "jobs": 200 }
+    ],
+    "sourceIds": ["src-ibm-2025-entrepreneur", "src-ibm-2025-shrm"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "programId": "ibm-ai-automation",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "The executed counterpart to IBM's 2023 projection: a modest, specific replacement (~200 roles) even as total headcount grew."
+  },
+  {
+    "id": "microsoft-2025-layoffs-context",
+    "slug": "microsoft-2025-layoffs-context",
+    "companyId": "microsoft",
+    "announcementDate": "2025-07-02",
+    "effectiveDate": null,
+    "globalJobsLost": 15000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "F",
+    "confidence": "UNCONFIRMED",
+    "status": "executed",
+    "summary": "Microsoft laid off more than 15,000 employees across 2025 (about 6,000 in May and 9,000 in July) during a period when it committed roughly $80 billion to AI data-center construction in fiscal 2025. Microsoft did not state that the layoffs were caused by AI or by that spending.",
+    "whyClassified": "Available evidence does not establish that AI or AI spending caused these layoffs, and Microsoft did not attribute the cuts to AI. This is recorded as context only (F) and is excluded from every AI-attributed total. Reporting that connects the two is speculative.",
+    "whatWeKnow": [
+      "Microsoft cut more than 15,000 roles during 2025 across multiple waves.",
+      "Washington state WARN filings recorded about 3,100 of those layoffs at Microsoft's home state across the May and July waves.",
+      "Microsoft separately said it planned to spend about $80 billion on AI-enabled data centers in fiscal 2025."
+    ],
+    "whatWeDontKnow": [
+      "Microsoft did not state a causal relationship between the layoffs and its AI investment.",
+      "Whether savings from the reductions were redirected toward AI infrastructure is not established."
+    ],
+    "aiInvestmentContext": "Microsoft committed about $80 billion to AI data centers in fiscal 2025 and is a major backer of OpenAI. It has not tied this spending to the workforce reductions.",
+    "locations": [
+      { "country": "United States", "state": "WA", "city": "Redmond", "jobs": 3100, "note": "Washington state WARN filings recorded about 3,100 layoffs across the May and July 2025 waves." },
+      { "country": "United States", "state": null, "jobs": null, "note": "Remaining reductions were global and not fully broken out by state." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-microsoft-2025-warn-geekwire", "src-microsoft-2025-wa-geekwire", "src-microsoft-2025-invest-cnbc"],
+    "investmentRelationship": "CONTEXT_ONLY",
+    "relatedInvestmentIds": ["inv-microsoft-fy2025-datacenters"],
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Included as an investigative-context example of the difference between correlation and causation. Never counted in AI-attributed totals."
+  },
+  {
+    "id": "salesforce-2025-agentforce-support",
+    "slug": "salesforce-2025-agentforce-support",
+    "companyId": "salesforce",
+    "announcementDate": "2025-09-02",
+    "effectiveDate": null,
+    "globalJobsLost": 4000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "A",
+    "confidence": "VERY_HIGH",
+    "status": "in_progress",
+    "summary": "Salesforce reduced its customer-support workforce from about 9,000 to roughly 5,000 during 2025. CEO Marc Benioff said AI agents (Agentforce) now handle about half of customer interactions and credited them directly for the reduction. Benioff described it as a 'rebalance', with some staff moved into other roles and thousands of new salespeople hired.",
+    "whyClassified": "Benioff attributed the reduction directly to AI agents performing customer-service work, which fits direct AI replacement (A). It is recorded as in progress because the shift occurred across 2025.",
+    "whatWeKnow": [
+      "Salesforce's support headcount fell from about 9,000 to roughly 5,000 in 2025.",
+      "Benioff said AI agents handle about 50% of support interactions and drove the reduction."
+    ],
+    "whatWeDontKnow": [
+      "Salesforce described the change as a rebalance; how many of the roughly 4,000 left the company versus moved to other roles is not fully specified.",
+      "The US share of the reduction was not disclosed."
+    ],
+    "aiInvestmentContext": "Salesforce sells Agentforce, its AI agent product, and has invested heavily in it.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Global support organization; no state-level breakdown published." }
+    ],
+    "occupations": [
+      { "title": "Customer support representatives", "category": "Customer Support", "jobs": 4000 }
+    ],
+    "sourceIds": ["src-salesforce-2025-sfchronicle", "src-salesforce-2025-foxbusiness"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Headcount is approximate (about 4,000) and reflects a support organization that shrank from ~9,000 to ~5,000; some staff were redeployed."
+  },
+  {
+    "id": "amazon-2025-corporate-ai-efficiency",
+    "slug": "amazon-2025-corporate-ai-efficiency",
+    "companyId": "amazon",
+    "announcementDate": "2025-10-28",
+    "effectiveDate": null,
+    "globalJobsLost": 14000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Amazon cut about 14,000 corporate roles, its largest corporate reduction of 2025. The company framed it as removing bureaucracy and gaining efficiency, and tied it to a broader push to invest in AI. In a June 2025 memo, CEO Andy Jassy had said AI efficiency gains would reduce Amazon's corporate workforce over the next few years.",
+    "whyClassified": "AI-driven efficiency was named as one factor in the restructuring alongside reducing bureaucracy and management layers, which fits AI-related restructuring (C). It is not classified as direct replacement because Amazon did not attribute specific roles to AI performing the work.",
+    "whatWeKnow": [
+      "Amazon confirmed about 14,000 corporate job cuts on October 28, 2025.",
+      "CEO Andy Jassy had linked AI efficiency gains to a smaller corporate workforce in a June 2025 memo."
+    ],
+    "whatWeDontKnow": [
+      "Amazon also cited reducing bureaucracy and management layers; how much of the 14,000 is attributable to AI specifically is not established.",
+      "The reduction affects corporate roles; the US versus international split was not disclosed.",
+      "Reporting said cuts could ultimately reach 30,000, but only the confirmed 14,000 is recorded here."
+    ],
+    "aiInvestmentContext": "Amazon is investing heavily in AI infrastructure, including its Trainium chips, Bedrock, and a large stake in Anthropic.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Corporate reduction; Amazon did not publish a state-level breakdown." }
+    ],
+    "occupations": [
+      { "title": "Corporate employees", "category": "Professional Services", "jobs": null }
+    ],
+    "sourceIds": ["src-amazon-2025-cnbc", "src-amazon-2025-geekwire", "src-amazon-2025-jassy-cnbc"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "relatedInvestmentIds": ["inv-amazon-ai"],
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Only the company-confirmed ~14,000 is recorded; a larger 30,000 figure reported elsewhere is a projection and is excluded."
+  }
+]

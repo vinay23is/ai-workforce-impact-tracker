@@ -1,0 +1,23 @@
+{
+  "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS)",
+  "sourceUrl": "https://www.bls.gov/oes/",
+  "sourceYear": 2023,
+  "note": "Rounded reference median annual wages used only when a company does not disclose compensation for an affected group. Figures are national approximations and are not precise BLS cell values; they exist to keep wage estimates conservative and consistent rather than exact.",
+  "nationalMedianAnnualWage": 48060,
+  "byIndustry": [
+    { "industryId": "technology", "medianAnnualWage": 105000 },
+    { "industryId": "financial-services", "medianAnnualWage": 90000 },
+    { "industryId": "retail", "medianAnnualWage": 37000 },
+    { "industryId": "media", "medianAnnualWage": 62000 },
+    { "industryId": "advertising", "medianAnnualWage": 65000 },
+    { "industryId": "professional-services", "medianAnnualWage": 80000 },
+    { "industryId": "customer-support", "medianAnnualWage": 39000 },
+    { "industryId": "healthcare", "medianAnnualWage": 80000 },
+    { "industryId": "manufacturing", "medianAnnualWage": 47000 },
+    { "industryId": "transportation", "medianAnnualWage": 40000 },
+    { "industryId": "education", "medianAnnualWage": 55000 },
+    { "industryId": "legal", "medianAnnualWage": 90000 },
+    { "industryId": "human-resources", "medianAnnualWage": 68000 },
+    { "industryId": "telecommunications", "medianAnnualWage": 62000 }
+  ]
+}

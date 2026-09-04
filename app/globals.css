@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #faf9f6;
+  --surface: #ffffff;
+  --ink: #1b1b1a;
+  --ink-soft: #3d3d3a;
+  --muted: #6b6a64;
+  --faint: #97958c;
+  --rule: #e5e2d9;
+  --accent: #9a2f2a;
+  --accent-soft: #f1e7e3;
+
+  /* Attribution categories. Always paired with a text label so meaning never
+     depends on colour alone. */
+  --attr-a: #9a2f2a;
+  --attr-b: #b0602a;
+  --attr-c: #97781a;
+  --attr-d: #3f6f8f;
+  --attr-e: #63707e;
+  --attr-f: #9aa0a6;
+
+  color-scheme: light;
+}
+
+* {
+  border-color: var(--rule);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "kern";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular figures for every number so columns and metrics align. */
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

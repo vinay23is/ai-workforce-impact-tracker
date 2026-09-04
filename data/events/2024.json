@@ -1,0 +1,107 @@
+[
+  {
+    "id": "klarna-2024-ai-assistant",
+    "slug": "klarna-2024-ai-assistant",
+    "companyId": "klarna",
+    "announcementDate": "2024-02-27",
+    "effectiveDate": null,
+    "globalJobsLost": 2000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "in_progress",
+    "summary": "Klarna said its OpenAI-powered assistant was doing the work of 700 full-time customer-service agents within its first month. CEO Sebastian Siemiatkowski said AI let the company operate with far fewer people; headcount fell from about 5,500 to roughly 3,400 over 2023–2025, largely through a hiring freeze and attrition. In 2025 Klarna said it would rehire some human agents after quality concerns.",
+    "whyClassified": "Klarna's CEO explicitly credited AI with enabling a smaller workforce (B). The reduction came mostly through a hiring freeze and attrition rather than one-to-one replacement, so it is not classified as direct replacement (A).",
+    "whatWeKnow": [
+      "Klarna publicly stated its AI assistant handled work equivalent to 700 agents in its first month.",
+      "Headcount fell from about 5,500 to roughly 3,400, which the CEO attributed to AI-enabled efficiency."
+    ],
+    "whatWeDontKnow": [
+      "How much of the roughly 2,000 reduction was layoffs versus attrition and a hiring freeze is not fully broken out.",
+      "The US share of the reduction is unknown; Klarna is headquartered in Sweden.",
+      "Klarna began rehiring some agents in 2025, so the long-run net reduction is uncertain."
+    ],
+    "aiInvestmentContext": "Klarna partnered with OpenAI in 2023 to build its assistant.",
+    "locations": [
+      { "country": "Sweden", "state": null, "jobs": null, "note": "Klarna is headquartered in Sweden; the reduction was global with no published US breakdown." }
+    ],
+    "occupations": [
+      { "title": "Customer service agents", "category": "Customer Support", "jobs": null }
+    ],
+    "sourceIds": ["src-klarna-2025-cnbc", "src-klarna-2024-fastcompany", "src-klarna-2025-entrepreneur"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Headcount figure is approximate and reflects a reduction driven substantially by attrition and a hiring freeze."
+  },
+  {
+    "id": "duolingo-2024-ai-content",
+    "slug": "duolingo-2024-ai-content",
+    "companyId": "duolingo",
+    "announcementDate": "2024-01-10",
+    "effectiveDate": null,
+    "globalJobsLost": null,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": null,
+    "attributionLevel": "A",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Duolingo cut roughly 10% of its contractors — primarily translators and content writers — after shifting content generation to GPT-4 and other AI tools. CEO Luis von Ahn later described an 'AI-first' approach of gradually ending contractor work that AI can handle.",
+    "whyClassified": "The affected translation and content work was moved directly to AI systems, which fits direct AI replacement (A).",
+    "whatWeKnow": [
+      "Duolingo reduced its contractor base by about 10%, concentrated in translation and content roles.",
+      "The company said AI now generates content those contractors previously produced."
+    ],
+    "whatWeDontKnow": [
+      "Duolingo did not disclose the exact number of contractors affected, so no headcount is counted.",
+      "Contractor locations were not published; many translators work outside the United States."
+    ],
+    "aiInvestmentContext": "Duolingo uses OpenAI's GPT-4 for content generation and its Duolingo Max features.",
+    "locations": [],
+    "occupations": [
+      { "title": "Translators and content writers", "category": "Media", "jobs": null }
+    ],
+    "sourceIds": ["src-duolingo-2024-wapo", "src-duolingo-2024-engadget"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "A clear direct-replacement example where the affected headcount was not disclosed. It counts as an event but contributes no jobs to totals."
+  },
+  {
+    "id": "intuit-2024-ai-reallocation",
+    "slug": "intuit-2024-ai-reallocation",
+    "companyId": "intuit",
+    "announcementDate": "2024-07-10",
+    "effectiveDate": null,
+    "globalJobsLost": 1800,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": 10,
+    "attributionLevel": "D",
+    "confidence": "HIGH",
+    "status": "executed",
+    "summary": "Intuit cut about 1,800 roles (roughly 10% of staff) while saying it would hire a similar number of new employees focused on AI, engineering, and other priority areas. CEO Sasan Goodarzi framed the move as reallocating investment toward AI. About 1,050 of the departures were described as performance-related.",
+    "whyClassified": "Intuit tied the reduction to reallocating resources toward AI while rehiring in AI roles, which fits AI capital reallocation (D). AI did not perform the eliminated jobs, so this is not counted as direct replacement or an AI-enabled reduction.",
+    "whatWeKnow": [
+      "Intuit eliminated about 1,800 roles and said it planned to hire about 1,800 new employees in AI and other priority areas.",
+      "The CEO cited increasing investment in AI as a reason for the restructuring."
+    ],
+    "whatWeDontKnow": [
+      "Because Intuit planned to rehire a similar number, the net change in total headcount was close to flat.",
+      "Intuit did not say AI performed the specific eliminated jobs."
+    ],
+    "aiInvestmentContext": "Intuit has integrated generative AI across TurboTax and QuickBooks (Intuit Assist) and has pursued AI partnerships.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Intuit is US-headquartered; a full state-level breakdown was not published." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-intuit-2024-siliconangle", "src-intuit-2024-yahoo"],
+    "investmentRelationship": "PARTIALLY_CONFIRMED",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": null
+  }
+]

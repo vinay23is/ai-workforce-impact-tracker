@@ -1,0 +1,16 @@
+[
+  { "id": "technology", "slug": "technology", "name": "Technology", "description": "Software, internet platforms, hardware, and IT services." },
+  { "id": "financial-services", "slug": "financial-services", "name": "Financial Services", "description": "Banking, payments, insurance, and fintech." },
+  { "id": "retail", "slug": "retail", "name": "Retail", "description": "Physical and online retail and consumer commerce." },
+  { "id": "media", "slug": "media", "name": "Media", "description": "News, publishing, entertainment, and content production." },
+  { "id": "advertising", "slug": "advertising", "name": "Advertising", "description": "Advertising agencies and marketing services." },
+  { "id": "professional-services", "slug": "professional-services", "name": "Professional Services", "description": "Consulting, accounting, and other professional firms." },
+  { "id": "customer-support", "slug": "customer-support", "name": "Customer Support", "description": "Contact centers and customer service operations." },
+  { "id": "healthcare", "slug": "healthcare", "name": "Healthcare", "description": "Care providers, health insurers, and health technology." },
+  { "id": "manufacturing", "slug": "manufacturing", "name": "Manufacturing", "description": "Industrial and consumer goods production." },
+  { "id": "transportation", "slug": "transportation", "name": "Transportation", "description": "Logistics, delivery, and passenger transport." },
+  { "id": "education", "slug": "education", "name": "Education", "description": "Schools, universities, and education technology." },
+  { "id": "legal", "slug": "legal", "name": "Legal", "description": "Law firms and legal services." },
+  { "id": "human-resources", "slug": "human-resources", "name": "Human Resources", "description": "Recruiting, staffing, and HR operations." },
+  { "id": "telecommunications", "slug": "telecommunications", "name": "Telecommunications", "description": "Telecom carriers and network operators." }
+]

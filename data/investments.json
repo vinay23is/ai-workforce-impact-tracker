@@ -1,0 +1,24 @@
+[
+  {
+    "id": "inv-microsoft-fy2025-datacenters",
+    "companyId": "microsoft",
+    "announcementDate": "2025-01-03",
+    "amount": 80000000000,
+    "currency": "USD",
+    "timePeriod": "Fiscal year 2025",
+    "investmentType": "data_centers",
+    "description": "Microsoft said it planned to spend about $80 billion building AI-enabled data centers in fiscal 2025, with more than half in the United States.",
+    "sourceIds": ["src-microsoft-2025-invest-cnbc"]
+  },
+  {
+    "id": "inv-amazon-ai",
+    "companyId": "amazon",
+    "announcementDate": "2025-10-28",
+    "amount": null,
+    "currency": "USD",
+    "timePeriod": "Ongoing",
+    "investmentType": "ai_infrastructure",
+    "description": "Amazon is expanding AI infrastructure and agent products (including Trainium chips and Bedrock) and holds a large stake in Anthropic. It did not disclose a single figure tied to the 2025 corporate restructuring.",
+    "sourceIds": ["src-amazon-2025-cnbc"]
+  }
+]

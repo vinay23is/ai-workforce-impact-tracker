@@ -1,0 +1,108 @@
+[
+  {
+    "id": "dropbox-2023-ai-restructuring",
+    "slug": "dropbox-2023-ai-restructuring",
+    "companyId": "dropbox",
+    "announcementDate": "2023-04-27",
+    "effectiveDate": null,
+    "globalJobsLost": 500,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": 16,
+    "attributionLevel": "C",
+    "confidence": "MEDIUM",
+    "status": "executed",
+    "summary": "Dropbox cut about 500 roles, or 16% of staff. CEO Drew Houston attributed the reshaping partly to slowing growth and partly to a shift toward AI, saying the next stage of growth needed a different mix of skills, particularly in AI and early-stage product development.",
+    "whyClassified": "AI was named as one driver of the restructuring alongside slowing growth and economic pressure. That fits AI-related restructuring (C) rather than direct replacement, because no specific roles were said to be performed by AI.",
+    "whatWeKnow": [
+      "The reduction totaled about 500 roles, roughly 16% of the workforce.",
+      "Houston cited a needed shift toward AI and early-stage product development as part of the rationale."
+    ],
+    "whatWeDontKnow": [
+      "Dropbox did not break out how many of the 500 roles were eliminated because of AI versus slowing growth.",
+      "The company did not disclose a geographic or occupation-level breakdown of the cut."
+    ],
+    "aiInvestmentContext": "Dropbox later launched AI features such as Dropbox Dash. It did not quantify AI spending tied to this reduction.",
+    "locations": [
+      { "country": "United States", "state": null, "jobs": null, "note": "Company-wide reduction; Dropbox did not publish a state-level breakdown." }
+    ],
+    "occupations": [],
+    "sourceIds": ["src-dropbox-2023-techcrunch", "src-dropbox-2023-cnbc"],
+    "investmentRelationship": "CONTEXT_ONLY",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": null
+  },
+  {
+    "id": "bt-group-2023-ai-automation",
+    "slug": "bt-group-2023-ai-automation",
+    "companyId": "bt-group",
+    "announcementDate": "2023-05-18",
+    "effectiveDate": null,
+    "globalJobsLost": 10000,
+    "usJobsLost": null,
+    "jobsEstimated": true,
+    "percentageWorkforce": null,
+    "attributionLevel": "B",
+    "confidence": "HIGH",
+    "status": "planned",
+    "summary": "BT Group said it would reduce its workforce by up to 55,000 by 2030. Of that, the company attributed roughly 10,000 reductions to digitisation, automation, and AI making operations more efficient. The remaining reductions were tied to completing network build-out and conventional restructuring.",
+    "whyClassified": "CEO Philip Jansen explicitly attributed about 10,000 of the reductions to automation and AI, which fits an AI-enabled productivity reduction (B). Only that subset is recorded; the full 55,000 figure is not treated as AI-attributed.",
+    "whatWeKnow": [
+      "BT attributed about 10,000 of up to 55,000 total reductions by 2030 to digitisation, automation, and AI.",
+      "Areas cited include customer service and network operations."
+    ],
+    "whatWeDontKnow": [
+      "This is a target for 2030, not an executed cut, so the realised AI-attributed total is not yet known.",
+      "BT did not publish a year-by-year or location breakdown of the AI-attributed portion."
+    ],
+    "aiInvestmentContext": null,
+    "locations": [
+      { "country": "United Kingdom", "state": null, "jobs": null, "note": "BT is a UK carrier; no US positions were attributed to this program." }
+    ],
+    "occupations": [
+      { "title": "Customer service and network operations", "category": "Customer Support", "jobs": null }
+    ],
+    "sourceIds": ["src-bt-2023-forbes", "src-bt-2023-theregister"],
+    "investmentRelationship": "CONTEXT_ONLY",
+    "programId": "bt-2030-restructuring",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Only the ~10,000 AI/automation-attributed portion of a larger 55,000 program is recorded. Because it is a 2030 target, it is shown as planned and is excluded from executed totals."
+  },
+  {
+    "id": "ibm-2023-hiring-pause",
+    "slug": "ibm-2023-hiring-pause",
+    "companyId": "ibm",
+    "announcementDate": "2023-05-01",
+    "effectiveDate": null,
+    "globalJobsLost": null,
+    "usJobsLost": null,
+    "jobsEstimated": false,
+    "percentageWorkforce": null,
+    "attributionLevel": "B",
+    "confidence": "MEDIUM",
+    "status": "planned",
+    "summary": "IBM CEO Arvind Krishna told Bloomberg the company would pause or slow hiring for back-office roles that AI and automation could handle. He projected that up to 30% of about 26,000 non-customer-facing positions — roughly 7,800 roles — could be replaced over five years. This was a projection, not an executed reduction.",
+    "whyClassified": "Krishna said AI could let IBM operate with fewer back-office workers (B). Because the 7,800 figure was an explicit projection rather than an executed cut, no headcount is counted here.",
+    "whatWeKnow": [
+      "Krishna described pausing hiring for roles AI could perform and projected up to ~7,800 affected over five years."
+    ],
+    "whatWeDontKnow": [
+      "The 7,800 figure was a projection; IBM later said there was no blanket hiring freeze.",
+      "How many roles were ultimately affected by this specific 2023 projection is not established.",
+      "IBM's total headcount rose in later years even as some tasks were automated."
+    ],
+    "aiInvestmentContext": "IBM has invested in its watsonx AI platform over this period.",
+    "locations": [],
+    "occupations": [
+      { "title": "Back-office roles (HR and administration)", "category": "Human Resources", "jobs": null }
+    ],
+    "sourceIds": ["src-ibm-2023-bloomberg"],
+    "investmentRelationship": "UNCONFIRMED",
+    "programId": "ibm-ai-automation",
+    "published": true,
+    "lastReviewedAt": "2026-09-01",
+    "notes": "Recorded as a stated projection. See the 2025 AskHR event for an executed IBM reduction attributed to AI."
+  }
+]

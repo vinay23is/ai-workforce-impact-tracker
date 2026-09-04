@@ -1,0 +1,42 @@
+{
+  "name": "ai-workforce-impact-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public dataset and website documenting workforce reductions with credible links to artificial intelligence.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run validate:data && npm run build:data",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "build:data": "tsx scripts/build-public-data.ts",
+    "add:event": "tsx scripts/add-event.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.25",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.25",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
