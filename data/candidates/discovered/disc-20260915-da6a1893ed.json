@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-da6a1893ed",
+  "discoveredAt": "2026-09-15T11:41:53.916Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Scribe Therapeutics, Inc.  (SCTX) — 10-Q 2026-09-02",
+  "companyName": "Scribe Therapeutics, Inc.  (SCTX)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1853921/000119312526380191/sctx-20260630.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1853921/000119312526380191/sctx-20260630.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1853921/000119312526380191/sctx-20260630.htm",
+      "domain": "sec.gov",
+      "title": "Scribe Therapeutics, Inc.  (SCTX) — 10-Q 2026-09-02",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-02",
+      "discoveredAt": "2026-09-15T11:41:53.916Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-172a71aa97",
+  "discoveredAt": "2026-09-15T11:41:53.916Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Yext, Inc.  (YEXT) — 10-Q 2026-09-01",
+  "companyName": "Yext, Inc.  (YEXT)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1614178/000162828026059784/yext-20260731.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1614178/000162828026059784/yext-20260731.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1614178/000162828026059784/yext-20260731.htm",
+      "domain": "sec.gov",
+      "title": "Yext, Inc.  (YEXT) — 10-Q 2026-09-01",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-01",
+      "discoveredAt": "2026-09-15T11:41:53.916Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-b02cb7d75e",
+  "discoveredAt": "2026-09-15T11:41:55.751Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Dell Technologies Inc.  (DELL) — 10-Q 2026-09-08",
+  "companyName": "Dell Technologies Inc.  (DELL)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+      "domain": "sec.gov",
+      "title": "Dell Technologies Inc.  (DELL) — 10-Q 2026-09-08",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-08",
+      "discoveredAt": "2026-09-15T11:41:55.751Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

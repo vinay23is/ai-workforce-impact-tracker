@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-1a745fc019",
+  "discoveredAt": "2026-09-15T11:41:58.941Z",
+  "status": "NEEDS_REVIEW",
+  "title": "TEVA PHARMACEUTICAL INDUSTRIES LTD  (TEVA, TEVJF) — EX-99.1 2026-09-03",
+  "companyName": "TEVA PHARMACEUTICAL INDUSTRIES LTD  (TEVA, TEVJF)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/818686/000119312526381899/d153033dex991.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/818686/000119312526381899/d153033dex991.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/818686/000119312526381899/d153033dex991.htm",
+      "domain": "sec.gov",
+      "title": "TEVA PHARMACEUTICAL INDUSTRIES LTD  (TEVA, TEVJF) — EX-99.1 2026-09-03",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-03",
+      "discoveredAt": "2026-09-15T11:41:58.941Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"generative AI\" \"reduction in workforce\""
+  ],
+  "matchedKeywords": [
+    "generative AI",
+    "reduction in workforce"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

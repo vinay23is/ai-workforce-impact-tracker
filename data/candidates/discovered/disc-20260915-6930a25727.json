@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-6930a25727",
+  "discoveredAt": "2026-09-15T11:41:55.751Z",
+  "status": "NEEDS_REVIEW",
+  "title": "CISCO SYSTEMS, INC.  (CSCO) — 10-K 2026-09-02",
+  "companyName": "CISCO SYSTEMS, INC.  (CSCO)",
+  "possibleCompanyId": "cisco",
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+      "domain": "sec.gov",
+      "title": "CISCO SYSTEMS, INC.  (CSCO) — 10-K 2026-09-02",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-02",
+      "discoveredAt": "2026-09-15T11:41:55.751Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

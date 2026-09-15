@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260915-c8b0c29ad2",
+  "discoveredAt": "2026-09-15T11:41:55.751Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Netskope Inc  (NTSK) — 10-Q 2026-09-02",
+  "companyName": "Netskope Inc  (NTSK)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/2063196/000119312526380428/ntsk-20260731.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2063196/000119312526380428/ntsk-20260731.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/2063196/000119312526380428/ntsk-20260731.htm",
+      "domain": "sec.gov",
+      "title": "Netskope Inc  (NTSK) — 10-Q 2026-09-02",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-02",
+      "discoveredAt": "2026-09-15T11:41:55.751Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
