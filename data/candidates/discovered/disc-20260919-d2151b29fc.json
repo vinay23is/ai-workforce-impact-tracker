@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260919-d2151b29fc",
+  "discoveredAt": "2026-09-19T10:56:14.594Z",
+  "status": "NEEDS_REVIEW",
+  "title": "DESCARTES SYSTEMS GROUP INC  (DSGX) — EX-99.1 2026-09-11",
+  "companyName": "DESCARTES SYSTEMS GROUP INC  (DSGX)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1050140/000110465926106807/dsgx-20260731xex99d1.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1050140/000110465926106807/dsgx-20260731xex99d1.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1050140/000110465926106807/dsgx-20260731xex99d1.htm",
+      "domain": "sec.gov",
+      "title": "DESCARTES SYSTEMS GROUP INC  (DSGX) — EX-99.1 2026-09-11",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-11",
+      "discoveredAt": "2026-09-19T10:56:14.594Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

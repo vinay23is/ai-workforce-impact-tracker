@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260919-c53996a15a",
+  "discoveredAt": "2026-09-19T10:56:12.929Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Apnimed, Inc.  (APMD) — 10-Q 2026-09-08",
+  "companyName": "Apnimed, Inc.  (APMD)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1745648/000119312526385356/apmd-20260630.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1745648/000119312526385356/apmd-20260630.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1745648/000119312526385356/apmd-20260630.htm",
+      "domain": "sec.gov",
+      "title": "Apnimed, Inc.  (APMD) — 10-Q 2026-09-08",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-08",
+      "discoveredAt": "2026-09-19T10:56:12.929Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260919-ae8b697bfc",
+  "discoveredAt": "2026-09-19T10:56:12.929Z",
+  "status": "NEEDS_REVIEW",
+  "title": "ACP Holdings Acquisition Corp.  (ACGC, ACGCU, ACGCW) — EX-2.1 2026-09-16",
+  "companyName": "ACP Holdings Acquisition Corp.  (ACGC, ACGCU, ACGCW)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/2111542/000121390026100367/ea030470201ex2-1.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2111542/000121390026100367/ea030470201ex2-1.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/2111542/000121390026100367/ea030470201ex2-1.htm",
+      "domain": "sec.gov",
+      "title": "ACP Holdings Acquisition Corp.  (ACGC, ACGCU, ACGCW) — EX-2.1 2026-09-16",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-16",
+      "discoveredAt": "2026-09-19T10:56:12.929Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

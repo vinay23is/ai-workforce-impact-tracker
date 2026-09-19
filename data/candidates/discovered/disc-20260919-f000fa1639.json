@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260919-f000fa1639",
+  "discoveredAt": "2026-09-19T10:56:12.930Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Axogen, Inc.  (AXGN) — EX-2.1 2026-09-10",
+  "companyName": "Axogen, Inc.  (AXGN)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/805928/000162828026061393/exhibit21-8xka.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/805928/000162828026061393/exhibit21-8xka.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/805928/000162828026061393/exhibit21-8xka.htm",
+      "domain": "sec.gov",
+      "title": "Axogen, Inc.  (AXGN) — EX-2.1 2026-09-10",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-10",
+      "discoveredAt": "2026-09-19T10:56:12.930Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
