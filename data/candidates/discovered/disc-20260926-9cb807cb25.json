@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260926-9cb807cb25",
+  "discoveredAt": "2026-09-26T11:22:17.712Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Stitch Fix, Inc.  (SFIX) — 10-K 2026-09-24",
+  "companyName": "Stitch Fix, Inc.  (SFIX)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1576942/000162828026063365/sfix-20260801.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1576942/000162828026063365/sfix-20260801.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1576942/000162828026063365/sfix-20260801.htm",
+      "domain": "sec.gov",
+      "title": "Stitch Fix, Inc.  (SFIX) — 10-K 2026-09-24",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-24",
+      "discoveredAt": "2026-09-26T11:22:17.712Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20260926-8c312c594b",
+  "discoveredAt": "2026-09-26T11:22:17.712Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Nutanix, Inc.  (NTNX) — 10-K 2026-09-18",
+  "companyName": "Nutanix, Inc.  (NTNX)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1618732/000119312526394793/ntnx-20260731.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1618732/000119312526394793/ntnx-20260731.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1618732/000119312526394793/ntnx-20260731.htm",
+      "domain": "sec.gov",
+      "title": "Nutanix, Inc.  (NTNX) — 10-K 2026-09-18",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-18",
+      "discoveredAt": "2026-09-26T11:22:17.712Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
