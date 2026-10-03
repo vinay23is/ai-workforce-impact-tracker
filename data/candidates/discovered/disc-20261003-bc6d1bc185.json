@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261003-bc6d1bc185",
+  "discoveredAt": "2026-10-03T11:37:28.485Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Lite Strategy, Inc.  (LITS) — 10-K 2026-09-28",
+  "companyName": "Lite Strategy, Inc.  (LITS)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1262104/000119312526405328/lits-20260630.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1262104/000119312526405328/lits-20260630.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1262104/000119312526405328/lits-20260630.htm",
+      "domain": "sec.gov",
+      "title": "Lite Strategy, Inc.  (LITS) — 10-K 2026-09-28",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-28",
+      "discoveredAt": "2026-10-03T11:37:28.485Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

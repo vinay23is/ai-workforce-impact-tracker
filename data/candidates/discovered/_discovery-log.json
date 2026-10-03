@@ -1,0 +1,21 @@
+{
+  "lastDiscoveryRun": "2026-10-03T11:37:35.200Z",
+  "today": "2026-10-03",
+  "providerResults": [
+    {
+      "provider": "sec-edgar-fts",
+      "enabled": true,
+      "ok": true,
+      "items": 9,
+      "error": null
+    },
+    {
+      "provider": "gdelt-doc",
+      "enabled": false,
+      "ok": true,
+      "items": 0,
+      "error": null
+    }
+  ],
+  "newCandidates": 9
+}

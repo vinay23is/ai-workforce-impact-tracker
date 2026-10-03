@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261003-23517afecf",
+  "discoveredAt": "2026-10-03T11:37:28.485Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Grindr Inc.  (GRND) — EX-2.1 2026-09-30",
+  "companyName": "Grindr Inc.  (GRND)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1820144/000182014426000033/exhibit21-securitiespurcha.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1820144/000182014426000033/exhibit21-securitiespurcha.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1820144/000182014426000033/exhibit21-securitiespurcha.htm",
+      "domain": "sec.gov",
+      "title": "Grindr Inc.  (GRND) — EX-2.1 2026-09-30",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-09-30",
+      "discoveredAt": "2026-10-03T11:37:28.485Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
