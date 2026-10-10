@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261010-117fb0860a",
+  "discoveredAt": "2026-10-10T12:28:53.123Z",
+  "status": "NEEDS_REVIEW",
+  "title": "HARBOR DIVERSIFIED, INC. — 10-K 2026-10-09",
+  "companyName": "HARBOR DIVERSIFIED, INC.",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/899394/000089939426000033/hrbr-20251231.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/899394/000089939426000033/hrbr-20251231.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/899394/000089939426000033/hrbr-20251231.htm",
+      "domain": "sec.gov",
+      "title": "HARBOR DIVERSIFIED, INC. — 10-K 2026-10-09",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-09",
+      "discoveredAt": "2026-10-10T12:28:53.123Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

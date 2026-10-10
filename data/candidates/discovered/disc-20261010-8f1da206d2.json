@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261010-8f1da206d2",
+  "discoveredAt": "2026-10-10T12:28:53.122Z",
+  "status": "NEEDS_REVIEW",
+  "title": "RESOURCES CONNECTION, INC.  (RGP) — EX-99.1 2026-10-07",
+  "companyName": "RESOURCES CONNECTION, INC.  (RGP)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1084765/000108476526000078/rgpq1fy2027pressrelease.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1084765/000108476526000078/rgpq1fy2027pressrelease.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1084765/000108476526000078/rgpq1fy2027pressrelease.htm",
+      "domain": "sec.gov",
+      "title": "RESOURCES CONNECTION, INC.  (RGP) — EX-99.1 2026-10-07",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-07",
+      "discoveredAt": "2026-10-10T12:28:53.122Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

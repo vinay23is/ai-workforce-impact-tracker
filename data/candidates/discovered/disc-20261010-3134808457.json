@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261010-3134808457",
+  "discoveredAt": "2026-10-10T12:28:53.121Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Quantum-Si Inc  (QSI) — EX-99.1 2026-10-08",
+  "companyName": "Quantum-Si Inc  (QSI)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000064/a19aadetectionpressrelea.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1816431/000181643126000064/a19aadetectionpressrelea.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1816431/000181643126000064/a19aadetectionpressrelea.htm",
+      "domain": "sec.gov",
+      "title": "Quantum-Si Inc  (QSI) — EX-99.1 2026-10-08",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-08",
+      "discoveredAt": "2026-10-10T12:28:53.121Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
