@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261024-2a3c31c9ac",
+  "discoveredAt": "2026-10-24T10:55:46.091Z",
+  "status": "NEEDS_REVIEW",
+  "title": "GoPro, Inc.  (GPRO) — 10-Q/A 2026-10-19",
+  "companyName": "GoPro, Inc.  (GPRO)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1500435/000150043526000069/gpro-20260331.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1500435/000150043526000069/gpro-20260331.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1500435/000150043526000069/gpro-20260331.htm",
+      "domain": "sec.gov",
+      "title": "GoPro, Inc.  (GPRO) — 10-Q/A 2026-10-19",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-19",
+      "discoveredAt": "2026-10-24T10:55:46.091Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

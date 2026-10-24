@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261024-66d7cf6420",
+  "discoveredAt": "2026-10-24T10:55:48.575Z",
+  "status": "NEEDS_REVIEW",
+  "title": "DOW INC.  (DOW) — 10-Q 2026-10-23",
+  "companyName": "DOW INC.  (DOW)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000160/dow-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000160/dow-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1751788/000175178826000160/dow-20260930.htm",
+      "domain": "sec.gov",
+      "title": "DOW INC.  (DOW) — 10-Q 2026-10-23",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-23",
+      "discoveredAt": "2026-10-24T10:55:48.575Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

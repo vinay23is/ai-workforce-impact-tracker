@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261024-f8825c2e7e",
+  "discoveredAt": "2026-10-24T10:55:46.091Z",
+  "status": "NEEDS_REVIEW",
+  "title": "HERTZ GLOBAL HOLDINGS, INC  (HTZ, HTZWW) — EX-10.2 2026-10-20",
+  "companyName": "HERTZ GLOBAL HOLDINGS, INC  (HTZ, HTZWW)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1657853/000095010326015848/dp255212_ex1002.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1657853/000095010326015848/dp255212_ex1002.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1657853/000095010326015848/dp255212_ex1002.htm",
+      "domain": "sec.gov",
+      "title": "HERTZ GLOBAL HOLDINGS, INC  (HTZ, HTZWW) — EX-10.2 2026-10-20",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-20",
+      "discoveredAt": "2026-10-24T10:55:46.091Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

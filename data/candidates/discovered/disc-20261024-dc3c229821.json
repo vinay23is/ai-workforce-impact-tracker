@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261024-dc3c229821",
+  "discoveredAt": "2026-10-24T10:55:46.091Z",
+  "status": "NEEDS_REVIEW",
+  "title": "WISeQey Corp.  (WKEY, WSKEF) — EX-99.2 2026-10-14",
+  "companyName": "WISeQey Corp.  (WKEY, WSKEF)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1738699/000121390026109271/ea030854701ex99-2.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1738699/000121390026109271/ea030854701ex99-2.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1738699/000121390026109271/ea030854701ex99-2.htm",
+      "domain": "sec.gov",
+      "title": "WISeQey Corp.  (WKEY, WSKEF) — EX-99.2 2026-10-14",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-14",
+      "discoveredAt": "2026-10-24T10:55:46.091Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
