@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-de5e094dc3",
+  "discoveredAt": "2026-10-31T12:23:17.899Z",
+  "status": "NEEDS_REVIEW",
+  "title": "PayPal Holdings, Inc.  (PYPL) — 10-Q 2026-10-27",
+  "companyName": "PayPal Holdings, Inc.  (PYPL)",
+  "possibleCompanyId": "paypal",
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+      "domain": "sec.gov",
+      "title": "PayPal Holdings, Inc.  (PYPL) — 10-Q 2026-10-27",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-27",
+      "discoveredAt": "2026-10-31T12:23:17.899Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

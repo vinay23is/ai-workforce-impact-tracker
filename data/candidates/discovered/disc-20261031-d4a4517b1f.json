@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-d4a4517b1f",
+  "discoveredAt": "2026-10-31T12:23:16.380Z",
+  "status": "NEEDS_REVIEW",
+  "title": "COHU INC  (COHU) — 10-Q 2026-10-29",
+  "companyName": "COHU INC  (COHU)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/21535/000143774926033843/cohu20260926_10q.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926033843/cohu20260926_10q.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/21535/000143774926033843/cohu20260926_10q.htm",
+      "domain": "sec.gov",
+      "title": "COHU INC  (COHU) — 10-Q 2026-10-29",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-29",
+      "discoveredAt": "2026-10-31T12:23:16.380Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

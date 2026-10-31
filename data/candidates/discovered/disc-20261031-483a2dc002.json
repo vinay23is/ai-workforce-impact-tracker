@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-483a2dc002",
+  "discoveredAt": "2026-10-31T12:23:16.380Z",
+  "status": "NEEDS_REVIEW",
+  "title": "QuantumScape Corp  (QS) — 10-Q 2026-10-23",
+  "companyName": "QuantumScape Corp  (QS)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1811414/000119312526430428/qs-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526430428/qs-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1811414/000119312526430428/qs-20260930.htm",
+      "domain": "sec.gov",
+      "title": "QuantumScape Corp  (QS) — 10-Q 2026-10-23",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-23",
+      "discoveredAt": "2026-10-31T12:23:16.380Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

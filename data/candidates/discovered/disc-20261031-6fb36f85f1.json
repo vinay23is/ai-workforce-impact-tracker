@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-6fb36f85f1",
+  "discoveredAt": "2026-10-31T12:23:17.898Z",
+  "status": "NEEDS_REVIEW",
+  "title": "TechTarget, Inc.  (TTGT) — EX-99.1 2026-10-27",
+  "companyName": "TechTarget, Inc.  (TTGT)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/2018064/000119312526432963/ttgt-ex99_1.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2018064/000119312526432963/ttgt-ex99_1.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/2018064/000119312526432963/ttgt-ex99_1.htm",
+      "domain": "sec.gov",
+      "title": "TechTarget, Inc.  (TTGT) — EX-99.1 2026-10-27",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-27",
+      "discoveredAt": "2026-10-31T12:23:17.898Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

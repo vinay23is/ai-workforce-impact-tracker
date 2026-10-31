@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-8667ad9e25",
+  "discoveredAt": "2026-10-31T12:23:16.380Z",
+  "status": "NEEDS_REVIEW",
+  "title": "O-I Glass, Inc. /DE/  (OI) — 10-Q 2026-10-28",
+  "companyName": "O-I Glass, Inc. /DE/  (OI)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/812074/000110465926119653/oi-20260930x10q.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/812074/000110465926119653/oi-20260930x10q.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/812074/000110465926119653/oi-20260930x10q.htm",
+      "domain": "sec.gov",
+      "title": "O-I Glass, Inc. /DE/  (OI) — 10-Q 2026-10-28",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-28",
+      "discoveredAt": "2026-10-31T12:23:16.380Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

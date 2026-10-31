@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-d4155e7f25",
+  "discoveredAt": "2026-10-31T12:23:16.380Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Hayward Holdings, Inc.  (HAYW) — 10-Q 2026-10-28",
+  "companyName": "Hayward Holdings, Inc.  (HAYW)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1834622/000183462226000055/hayw-20260926.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1834622/000183462226000055/hayw-20260926.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1834622/000183462226000055/hayw-20260926.htm",
+      "domain": "sec.gov",
+      "title": "Hayward Holdings, Inc.  (HAYW) — 10-Q 2026-10-28",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-28",
+      "discoveredAt": "2026-10-31T12:23:16.380Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

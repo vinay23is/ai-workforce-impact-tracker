@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261031-b201852bf4",
+  "discoveredAt": "2026-10-31T12:23:17.899Z",
+  "status": "NEEDS_REVIEW",
+  "title": "CANADIAN NATIONAL RAILWAY CO  (CNI) — EX-99.3 2026-10-30",
+  "companyName": "CANADIAN NATIONAL RAILWAY CO  (CNI)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+      "domain": "sec.gov",
+      "title": "CANADIAN NATIONAL RAILWAY CO  (CNI) — EX-99.3 2026-10-30",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-30",
+      "discoveredAt": "2026-10-31T12:23:17.899Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
