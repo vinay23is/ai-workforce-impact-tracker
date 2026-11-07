@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261107-c12377598a",
+  "discoveredAt": "2026-11-07T12:57:33.098Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Docebo Inc.  (DCBO) — EX-99.2 2026-11-06",
+  "companyName": "Docebo Inc.  (DCBO)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1829959/000162828026071289/docebo2026q3mda.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1829959/000162828026071289/docebo2026q3mda.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1829959/000162828026071289/docebo2026q3mda.htm",
+      "domain": "sec.gov",
+      "title": "Docebo Inc.  (DCBO) — EX-99.2 2026-11-06",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-06",
+      "discoveredAt": "2026-11-07T12:57:33.098Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"generative AI\" \"reduction in workforce\""
+  ],
+  "matchedKeywords": [
+    "generative AI",
+    "reduction in workforce"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

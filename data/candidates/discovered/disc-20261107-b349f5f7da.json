@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261107-b349f5f7da",
+  "discoveredAt": "2026-11-07T12:57:30.223Z",
+  "status": "NEEDS_REVIEW",
+  "title": "SERA PROGNOSTICS, INC.  (SERA) — 10-Q 2026-11-04",
+  "companyName": "SERA PROGNOSTICS, INC.  (SERA)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1534969/000153496926000040/sera-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1534969/000153496926000040/sera-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1534969/000153496926000040/sera-20260930.htm",
+      "domain": "sec.gov",
+      "title": "SERA PROGNOSTICS, INC.  (SERA) — 10-Q 2026-11-04",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-04",
+      "discoveredAt": "2026-11-07T12:57:30.223Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

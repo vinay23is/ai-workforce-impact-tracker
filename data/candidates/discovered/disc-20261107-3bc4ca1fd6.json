@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261107-3bc4ca1fd6",
+  "discoveredAt": "2026-11-07T12:57:33.098Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Cars.com Inc.  (CARS) — 10-Q 2026-11-05",
+  "companyName": "Cars.com Inc.  (CARS)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1683606/000119312526449769/cars-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526449769/cars-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1683606/000119312526449769/cars-20260930.htm",
+      "domain": "sec.gov",
+      "title": "Cars.com Inc.  (CARS) — 10-Q 2026-11-05",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-05",
+      "discoveredAt": "2026-11-07T12:57:33.098Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"generative AI\" \"reduction in workforce\""
+  ],
+  "matchedKeywords": [
+    "generative AI",
+    "reduction in workforce"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

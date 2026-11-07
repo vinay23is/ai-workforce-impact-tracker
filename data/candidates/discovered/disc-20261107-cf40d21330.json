@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261107-cf40d21330",
+  "discoveredAt": "2026-11-07T12:57:31.647Z",
+  "status": "NEEDS_REVIEW",
+  "title": "UNISYS CORP  (UIS) — EX-99.1 2026-11-04",
+  "companyName": "UNISYS CORP  (UIS)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/746838/000074683826000037/q32026earningsrelease.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/746838/000074683826000037/q32026earningsrelease.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/746838/000074683826000037/q32026earningsrelease.htm",
+      "domain": "sec.gov",
+      "title": "UNISYS CORP  (UIS) — EX-99.1 2026-11-04",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-04",
+      "discoveredAt": "2026-11-07T12:57:31.647Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
