@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261114-2f5906d07d",
+  "discoveredAt": "2026-11-14T13:28:28.359Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Portillo's Inc.  (PTLO) — EX-99.1 2026-11-05",
+  "companyName": "Portillo's Inc.  (PTLO)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1871509/000187150926000070/exhibit991earningsrelease9.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1871509/000187150926000070/exhibit991earningsrelease9.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1871509/000187150926000070/exhibit991earningsrelease9.htm",
+      "domain": "sec.gov",
+      "title": "Portillo's Inc.  (PTLO) — EX-99.1 2026-11-05",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-05",
+      "discoveredAt": "2026-11-14T13:28:28.359Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

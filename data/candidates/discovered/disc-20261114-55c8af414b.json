@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261114-55c8af414b",
+  "discoveredAt": "2026-11-14T13:28:28.359Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Silvaco Group, Inc.  (SVCO) — 10-Q 2026-11-04",
+  "companyName": "Silvaco Group, Inc.  (SVCO)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1943289/000162828026070257/svco-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1943289/000162828026070257/svco-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1943289/000162828026070257/svco-20260930.htm",
+      "domain": "sec.gov",
+      "title": "Silvaco Group, Inc.  (SVCO) — 10-Q 2026-11-04",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-04",
+      "discoveredAt": "2026-11-14T13:28:28.359Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

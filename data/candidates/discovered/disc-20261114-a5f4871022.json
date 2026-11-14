@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261114-a5f4871022",
+  "discoveredAt": "2026-11-14T13:28:28.359Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Sweetgreen, Inc.  (SG) — EX-99.1 2026-11-05",
+  "companyName": "Sweetgreen, Inc.  (SG)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1477815/000162828026071064/q326sweetgreenearningsrele.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026071064/q326sweetgreenearningsrele.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1477815/000162828026071064/q326sweetgreenearningsrele.htm",
+      "domain": "sec.gov",
+      "title": "Sweetgreen, Inc.  (SG) — EX-99.1 2026-11-05",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-05",
+      "discoveredAt": "2026-11-14T13:28:28.359Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

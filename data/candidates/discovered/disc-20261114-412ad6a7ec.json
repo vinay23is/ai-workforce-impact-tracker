@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261114-412ad6a7ec",
+  "discoveredAt": "2026-11-14T13:28:28.359Z",
+  "status": "NEEDS_REVIEW",
+  "title": "People Inc  (PPLI) — EX-99.1 2026-11-02",
+  "companyName": "People Inc  (PPLI)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1800227/000162828026068875/ex_991q32026ppli-pressrele.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1800227/000162828026068875/ex_991q32026ppli-pressrele.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1800227/000162828026068875/ex_991q32026ppli-pressrele.htm",
+      "domain": "sec.gov",
+      "title": "People Inc  (PPLI) — EX-99.1 2026-11-02",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-02",
+      "discoveredAt": "2026-11-14T13:28:28.359Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

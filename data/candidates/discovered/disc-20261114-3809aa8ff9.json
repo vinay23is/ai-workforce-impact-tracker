@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261114-3809aa8ff9",
+  "discoveredAt": "2026-11-14T13:28:28.359Z",
+  "status": "NEEDS_REVIEW",
+  "title": "UNIVERSAL ELECTRONICS INC  (UEIC) — EX-99.1 2026-11-05",
+  "companyName": "UNIVERSAL ELECTRONICS INC  (UEIC)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/101984/000010198426000139/exhibit99-8ker20261105.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101984/000010198426000139/exhibit99-8ker20261105.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/101984/000010198426000139/exhibit99-8ker20261105.htm",
+      "domain": "sec.gov",
+      "title": "UNIVERSAL ELECTRONICS INC  (UEIC) — EX-99.1 2026-11-05",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-05",
+      "discoveredAt": "2026-11-14T13:28:28.359Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
