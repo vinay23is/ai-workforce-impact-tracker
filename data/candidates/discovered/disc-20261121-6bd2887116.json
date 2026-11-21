@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261121-6bd2887116",
+  "discoveredAt": "2026-11-21T14:37:22.723Z",
+  "status": "NEEDS_REVIEW",
+  "title": "My Size, Inc.  (MYSZ) — 10-Q 2026-11-19",
+  "companyName": "My Size, Inc.  (MYSZ)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1211805/000149315226053237/form10-q.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1211805/000149315226053237/form10-q.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1211805/000149315226053237/form10-q.htm",
+      "domain": "sec.gov",
+      "title": "My Size, Inc.  (MYSZ) — 10-Q 2026-11-19",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-19",
+      "discoveredAt": "2026-11-21T14:37:22.723Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
