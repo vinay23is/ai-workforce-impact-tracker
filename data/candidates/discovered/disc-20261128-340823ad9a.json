@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-340823ad9a",
+  "discoveredAt": "2026-11-28T15:28:34.334Z",
+  "status": "NEEDS_REVIEW",
+  "title": "WILLIAMS SONOMA INC  (WSM) — EX-99.1 2026-11-19",
+  "companyName": "WILLIAMS SONOMA INC  (WSM)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/719955/000071995526000244/exhibit991fy2026q3earnings.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000244/exhibit991fy2026q3earnings.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/719955/000071995526000244/exhibit991fy2026q3earnings.htm",
+      "domain": "sec.gov",
+      "title": "WILLIAMS SONOMA INC  (WSM) — EX-99.1 2026-11-19",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-19",
+      "discoveredAt": "2026-11-28T15:28:34.334Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

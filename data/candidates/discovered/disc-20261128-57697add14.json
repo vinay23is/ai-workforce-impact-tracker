@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-57697add14",
+  "discoveredAt": "2026-11-28T15:28:35.720Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Workday, Inc.  (WDAY) — 10-Q 2026-11-24",
+  "companyName": "Workday, Inc.  (WDAY)",
+  "possibleCompanyId": "workday",
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000058/wday-20261031.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000058/wday-20261031.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1327811/000132781126000058/wday-20261031.htm",
+      "domain": "sec.gov",
+      "title": "Workday, Inc.  (WDAY) — 10-Q 2026-11-24",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-24",
+      "discoveredAt": "2026-11-28T15:28:35.720Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

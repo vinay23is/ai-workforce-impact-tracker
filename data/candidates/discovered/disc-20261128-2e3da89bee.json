@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-2e3da89bee",
+  "discoveredAt": "2026-11-28T15:28:34.334Z",
+  "status": "NEEDS_REVIEW",
+  "title": "Five9, Inc.  (FIVN) — EX-2.1 2026-11-24",
+  "companyName": "Five9, Inc.  (FIVN)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1288847/000119312526475778/d433495dex21.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1288847/000119312526475778/d433495dex21.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1288847/000119312526475778/d433495dex21.htm",
+      "domain": "sec.gov",
+      "title": "Five9, Inc.  (FIVN) — EX-2.1 2026-11-24",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-24",
+      "discoveredAt": "2026-11-28T15:28:34.334Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

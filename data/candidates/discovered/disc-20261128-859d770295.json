@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-859d770295",
+  "discoveredAt": "2026-11-28T15:28:35.720Z",
+  "status": "NEEDS_REVIEW",
+  "title": "QVC Group, Inc.  (QVCG) — 10-Q 2026-11-16",
+  "companyName": "QVC Group, Inc.  (QVCG)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1254699/000125469926000034/qvcg-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1254699/000125469926000034/qvcg-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1254699/000125469926000034/qvcg-20260930.htm",
+      "domain": "sec.gov",
+      "title": "QVC Group, Inc.  (QVCG) — 10-Q 2026-11-16",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-16",
+      "discoveredAt": "2026-11-28T15:28:35.720Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"workforce reduction\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "workforce reduction"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

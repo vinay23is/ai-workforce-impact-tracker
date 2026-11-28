@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-ad60f6ad95",
+  "discoveredAt": "2026-11-28T15:28:34.334Z",
+  "status": "NEEDS_REVIEW",
+  "title": "F5, INC.  (FFIV) — 10-K 2026-11-17",
+  "companyName": "F5, INC.  (FFIV)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000077/ffiv-20260930.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000077/ffiv-20260930.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1048695/000104869526000077/ffiv-20260930.htm",
+      "domain": "sec.gov",
+      "title": "F5, INC.  (FFIV) — 10-K 2026-11-17",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-17",
+      "discoveredAt": "2026-11-28T15:28:34.334Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}

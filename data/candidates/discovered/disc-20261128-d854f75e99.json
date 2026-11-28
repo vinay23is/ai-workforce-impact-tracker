@@ -1,0 +1,40 @@
+{
+  "candidateId": "disc-20261128-d854f75e99",
+  "discoveredAt": "2026-11-28T15:28:34.334Z",
+  "status": "NEEDS_REVIEW",
+  "title": "reAlpha Tech Corp.  (AIRE) — 10-Q 2026-11-17",
+  "companyName": "reAlpha Tech Corp.  (AIRE)",
+  "possibleCompanyId": null,
+  "reportedJobs": null,
+  "reportedUSJobs": null,
+  "announcementDate": null,
+  "sourceUrls": [
+    "https://www.sec.gov/Archives/edgar/data/1859199/000121390026121458/ea0312117-10q_realpha.htm"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1859199/000121390026121458/ea0312117-10q_realpha.htm",
+      "canonicalUrl": "https://sec.gov/Archives/edgar/data/1859199/000121390026121458/ea0312117-10q_realpha.htm",
+      "domain": "sec.gov",
+      "title": "reAlpha Tech Corp.  (AIRE) — 10-Q 2026-11-17",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-11-17",
+      "discoveredAt": "2026-11-28T15:28:34.334Z",
+      "provider": "sec-edgar-fts",
+      "sourceType": "regulatory_filing",
+      "snippet": null
+    }
+  ],
+  "matchedQueries": [
+    "\"artificial intelligence\" \"reduction in force\""
+  ],
+  "matchedKeywords": [
+    "artificial intelligence",
+    "reduction in force"
+  ],
+  "possibleDuplicateOf": [],
+  "suggestedAttribution": null,
+  "suggestedConfidence": null,
+  "suggestedReductionMechanism": null,
+  "reviewNotes": "Auto-discovered via sec-edgar-fts. This is a keyword/discovery match only and does NOT establish that AI caused any workforce change. A human must verify the primary source and determine attribution before promotion."
+}
